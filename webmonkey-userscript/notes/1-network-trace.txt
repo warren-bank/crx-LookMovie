@@ -1,0 +1,350 @@
+--------------------------------------------------------------------------------
+
+https://lookmovie.io/
+https://lookmovie.io/shows/
+https://lookmovie.io/shows/page/2
+
+--------------------------------------------------------------------------------
+// https://lookmovie.io/shows/view/2741602-the-blacklist-2013/season/9/episode/11#S9-E11-164022
+// https://lookmovie183.xyz/s/1/50/s#S9-E11-164022
+
+https://lookmovie183.xyz/api/v1/security/episode-access?id_episode=164022
+
+{
+  "success": true,
+  "subtitles": [{
+    "language": "English",
+    "file": "/storage2/shows/2741602-the-blacklist-2013/1425656-S9-E11-1646474974/subtitles/en.vtt"
+  }],
+  "streams": {
+    "480": "https://na2.crasping.site/html/aes/b36eb87679577c6c761a23821f162517/1646580644/lookmovie183.xyz/storage2/shows/2741602-the-blacklist-2013/1425656-S9-E11-1646474974/8246802c0c207f49329e70a27e930f65.mp4/index.m3u8",
+    "720": "https://na2.crasping.site/html/aes/f1bfcf81adfbe9d83c4bb4991504036c/1646580644/lookmovie183.xyz/storage2/shows/2741602-the-blacklist-2013/1425656-S9-E11-1646474974/afbdadcdb2376438e496f02caf94f871.mp4/index.m3u8",
+    "1080": "https://na2.crasping.site/html/aes/8b040bc11d570c6c4a47933b94eba87e/1646580644/lookmovie183.xyz/storage2/shows/2741602-the-blacklist-2013/1425656-S9-E11-1646474974/685eb285c2ffda7f3b926cfe3d0d27a1.mp4/index.m3u8"
+  }
+}
+
+--------------------------------------------------------------------------------
+// https://lookmovie.io/movies/view/1086064-bill-ted-face-the-music-2020
+// https://lookmovie183.xyz/m/1/58354/s
+
+https://lookmovie183.xyz/api/v1/security/movie-access?id_movie=58354
+
+{
+  "success": true,
+  "streams": {
+    "1080p": "https://na3.crasping.site/ZlMCvlQ-2dmVX-4TeTsARw/1646586594/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/1080p/index.m3u8",
+    "720p": "https://na3.crasping.site/ZlMCvlQ-2dmVX-4TeTsARw/1646586594/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/720p/index.m3u8",
+    "480p": "https://na3.crasping.site/ZlMCvlQ-2dmVX-4TeTsARw/1646586594/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/480p/index.m3u8"
+  },
+  "subtitles": [{
+    "language": "English",
+    "source": "opensubtitle",
+    "source_id": "5865168",
+    "kind": "captions",
+    "id": "533547",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en_7fc7321a7ef8c6b6a8de23287a8ae408.vtt"
+  }, {
+    "language": "Protuguese (BR)",
+    "source": "opensubtitle",
+    "source_id": "5865174",
+    "kind": "captions",
+    "id": "561720",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/pt-BR_79a1621349a88be5b6f48aa88eaad87a.vtt"
+  }, {
+    "language": "Croatian",
+    "source": "opensubtitle",
+    "source_id": "6218547",
+    "kind": "captions",
+    "id": "673843",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/hr_b8b1a71f239db26ec47081edf34e2385.vtt"
+  }, {
+    "language": "Finnish",
+    "source": "opensubtitle",
+    "source_id": "5865180",
+    "kind": "captions",
+    "id": "636742",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/fi_31cf6d792cc286becc6307eb7eee5627.vtt"
+  }, {
+    "language": "German",
+    "source": "opensubtitle",
+    "source_id": "6189242",
+    "kind": "captions",
+    "id": "633992",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/de_7065860327a8060465d58b2ff19bf2ab.vtt"
+  }, {
+    "language": "French",
+    "source": "opensubtitle",
+    "source_id": "5865178",
+    "kind": "captions",
+    "id": "616633",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/fr_7bed78d39bacc2dc8f2dc025da6ece45.vtt"
+  }, {
+    "language": "Serbian",
+    "source": "opensubtitle",
+    "source_id": "5865187",
+    "kind": "captions",
+    "id": "615727",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/sr_6b5c6595c80c53e13fc1c9a71d6315c0.vtt"
+  }, {
+    "language": "English",
+    "source": "opensubtitle",
+    "source_id": "6189245",
+    "kind": "captions",
+    "id": "612771",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en_04ccf1b6889a4f24fed4f7e2119aff7e.vtt"
+  }, {
+    "language": "English",
+    "source": "opensubtitle",
+    "source_id": "5865201",
+    "kind": "captions",
+    "id": "597782",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en_3bb5dad7b3f609fd5857cc7914a2e205.vtt"
+  }, {
+    "language": "English",
+    "source": "opensubtitle",
+    "source_id": "5865172",
+    "kind": "captions",
+    "id": "597781",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en_12ffb64e1a570e79163072419f05d9d4.vtt"
+  }, {
+    "language": "English",
+    "source": "opensubtitle",
+    "source_id": "5865175",
+    "kind": "captions",
+    "id": "597780",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en_3aa2e8bde6a45857292b72526b270682.vtt"
+  }, {
+    "language": "Portuguese",
+    "source": "opensubtitle",
+    "source_id": "5865186",
+    "kind": "captions",
+    "id": "567916",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/pt-PT_848c5379b562842bbfd250571489ade0.vtt"
+  }, {
+    "language": "Dutch",
+    "source": "opensubtitle",
+    "source_id": "5865197",
+    "kind": "captions",
+    "id": "566698",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/nl_289592a7b4dc3aa204c91217a0b31482.vtt"
+  }, {
+    "language": "Dutch",
+    "source": "opensubtitle",
+    "source_id": "5865196",
+    "kind": "captions",
+    "id": "565486",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/nl_1d3b70dcfaaea7f14676760fa0db4d06.vtt"
+  }, {
+    "language": "Spanish",
+    "source": "opensubtitle",
+    "source_id": "5865170",
+    "kind": "captions",
+    "id": "544135",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/es_d94070f1feb226798491a81f313b4489.vtt"
+  }, {
+    "language": "English",
+    "source": "opensubtitle",
+    "source_id": "5865199",
+    "kind": "captions",
+    "id": "541225",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en_5a958b76b30a46fa216bdfefcdabc278.vtt"
+  }, {
+    "language": "Hebrew",
+    "source": "opensubtitle",
+    "source_id": "5972716",
+    "kind": "captions",
+    "id": "541104",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/he_82ff029cfad2a9a538f51281f90db427.vtt"
+  }, {
+    "language": "French",
+    "source": "opensubtitle",
+    "source_id": "5865177",
+    "kind": "captions",
+    "id": "535608",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/fr_7f091ec7181a292b2a61a7432748da48.vtt"
+  }, {
+    "language": "Arabic",
+    "source": "opensubtitle",
+    "source_id": "5865179",
+    "kind": "captions",
+    "id": "535276",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/ar_6275ca1dedc4f8352320d44b2b57bba2.vtt"
+  }, {
+    "language": "Swedish",
+    "source": "opensubtitle",
+    "source_id": "5865203",
+    "kind": "captions",
+    "id": "534350",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/sv_4c796471d9bf61666d4473205caf9300.vtt"
+  }, {
+    "language": "Greek",
+    "source": "opensubtitle",
+    "source_id": "5865206",
+    "kind": "captions",
+    "id": "534159",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/el_f74b47c52026668dea9e0d9306ea8f4f.vtt"
+  }, {
+    "language": "Malay",
+    "source": "opensubtitle",
+    "source_id": "5865209",
+    "kind": "captions",
+    "id": "533990",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/ms_6d9e1972bbff929cade12cf1d7a6220e.vtt"
+  }, {
+    "language": "Polish",
+    "source": "opensubtitle",
+    "source_id": "5865192",
+    "kind": "captions",
+    "id": "533433",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/pl_68da65d9c44e9b50abe04c09e27ae8dd.vtt"
+  }, {
+    "language": "Dutch",
+    "source": "opensubtitle",
+    "source_id": "5865194",
+    "kind": "captions",
+    "id": "533356",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/nl_a84093bbba809a267594858b45a32c67.vtt"
+  }, {
+    "language": "English",
+    "source": "opensubtitle",
+    "source_id": "5865169",
+    "kind": "captions",
+    "id": "533336",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en_3ee3207dca3c4031d4727c6fa700368e.vtt"
+  }, {
+    "language": "English",
+    "source": null,
+    "source_id": null,
+    "kind": "captions",
+    "id": "533264",
+    "file": "/storage1/1646564994/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en.vtt"
+  }, {
+    "language": "Spanish",
+    "source": "opensubtitle",
+    "source_id": "5865171",
+    "kind": "captions",
+    "file": [6881260, "5865171", "es", "Bill & Ted Face the Music", null]
+  }, {
+    "language": "Portuguese",
+    "source": "opensubtitle",
+    "source_id": "5865200",
+    "kind": "captions",
+    "file": [6881289, "5865200", "pt-PT", "Bill.Ted.Face.The.Music.2020.720p.BluRay.x264.AAC-[YTS.MX]", null]
+  }, {
+    "language": "Protuguese (BR)",
+    "source": "opensubtitle",
+    "source_id": "5865182",
+    "kind": "captions",
+    "file": [6881271, "5865182", "pt-BR", "Bill.and.Ted.Face.the.Music.2020.1080p.AMZN.WEBRip.DDP5.1.x264-NTG", null]
+  }, {
+    "language": "Hungarian",
+    "source": "opensubtitle",
+    "source_id": "5865183",
+    "kind": "captions",
+    "file": [6881272, "5865183", "hu", "Bill.Ted.Face.the.Music.1080p.WEB-DL.DD5.1.H.264-EVO.mkv", null]
+  }, {
+    "language": "Protuguese (BR)",
+    "source": "opensubtitle",
+    "source_id": "5865181",
+    "kind": "captions",
+    "file": [6881270, "5865181", "pt-BR", "Bill and Ted Face the Music.2020.1080p.WEB-DL.H264.AC3-EVO", null]
+  }, {
+    "language": "German",
+    "source": "opensubtitle",
+    "source_id": "5865189",
+    "kind": "captions",
+    "file": [6881278, "5865189", "de", "Bill und Teds Face The Music 2020 HD WEB.x264", null]
+  }, {
+    "language": "Dutch",
+    "source": "opensubtitle",
+    "source_id": "5865195",
+    "kind": "captions",
+    "file": [6881284, "5865195", "nl", "Bill.and.Ted.Face.the.Music.2020.1080p.WEBRip.6CH.x265.HEVC-PSA", null]
+  }, {
+    "language": "Korean",
+    "source": "opensubtitle",
+    "source_id": "5865167",
+    "kind": "captions",
+    "file": [6881257, "5865167", "ko", "Bill.And.Ted.Face.the.Music.2020.1080p.BluRay.DTS-HD.X264-CMRG", null]
+  }, {
+    "language": "Turkish",
+    "source": "opensubtitle",
+    "source_id": "5865190",
+    "kind": "captions",
+    "file": [6881279, "5865190", "tr", "Bill.and.Ted.Face.the.Music.2020.1080p.WEBRip.DD5.1.x264", null]
+  }, {
+    "language": "Russian",
+    "source": "opensubtitle",
+    "source_id": "5865185",
+    "kind": "captions",
+    "file": [6881274, "5865185", "ru", "Bill_and_Ted_Face_the_Music_2020_1080p_WEBRip_DD5_1_x264-CM-_rarbg_to_torrent", null]
+  }, {
+    "language": "Hindi",
+    "source": "opensubtitle",
+    "source_id": "5865176",
+    "kind": "captions",
+    "file": [6881265, "5865176", "hi", "Bill.and.Ted.Face.the.Music.2020", null]
+  }, {
+    "language": "Hungarian",
+    "source": "opensubtitle",
+    "source_id": "5865198",
+    "kind": "captions",
+    "file": [6881287, "5865198", "hu", "Bill.And.Ted.Face.the.Music.2020.1080p.BluRay.DTS-HD.X264-CMRG", null]
+  }, {
+    "language": "Hungarian",
+    "source": "opensubtitle",
+    "source_id": "5865193",
+    "kind": "captions",
+    "file": [6881282, "5865193", "hu", "Bill.and.Ted.Face.the.Music.2020.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTG", null]
+  }, {
+    "language": "Finnish",
+    "source": "opensubtitle",
+    "source_id": "5865204",
+    "kind": "captions",
+    "file": [6881293, "5865204", "fi", "Bill.And.Ted.Face.the.Music.2020.720p.BluRay.800MB.x264-GalaxyRG", null]
+  }, {
+    "language": "Arabic",
+    "source": "opensubtitle",
+    "source_id": "5865205",
+    "kind": "captions",
+    "file": [7218848, "5865205", "ar", "Bill.And.Ted.Face.The.Music.2020.1080p.bluray.mora.25r", null]
+  }, {
+    "language": "Hebrew",
+    "source": "opensubtitle",
+    "source_id": "5961592",
+    "kind": "captions",
+    "file": [7219254, "5961592", "he", "* תרגום אולפנים * Bill.and.Ted.Face.the.Music.2020.1080p.WEBRip.x264-RARBG", null]
+  }, {
+    "language": "Slovenian",
+    "source": "opensubtitle",
+    "source_id": "5865208",
+    "kind": "captions",
+    "file": [6881297, "5865208", "sl", "Bill.and.Ted.Face.the.Music.2020.SLOSubs.WEBRip.XviD-metalcamp", null]
+  }, {
+    "language": "German",
+    "source": "opensubtitle",
+    "source_id": "6189243",
+    "kind": "captions",
+    "file": [7115469, "6189243", "de", "Bill.und.Ted.retten.das.Universum.2020.German.DL.1080p.BluRay.x264-DETAiLS", null]
+  }, {
+    "language": "Slovenian",
+    "source": "opensubtitle",
+    "source_id": "5865207",
+    "kind": "captions",
+    "file": [6881296, "5865207", "sl", "Bill.and.Ted.Face.the.Music.2020.SLOSubs.BRRip.XviD-DrSi", null]
+  }, {
+    "language": "Croatian",
+    "source": "opensubtitle",
+    "source_id": "6218545",
+    "kind": "captions",
+    "file": [7135829, "6218545", "hr", "Bill.and.Ted.Face.the.Music.2020.CROSubs.BRRip.XviD-DrSi", null]
+  }, {
+    "language": "German",
+    "source": "opensubtitle",
+    "source_id": "6189244",
+    "kind": "captions",
+    "file": [7115471, "6189244", "de", "Bill.und.Ted.retten.das.Universum.2020.German.DL.1080p.BluRay.x264-DETAiLS", null]
+  }]
+}
+
+--------------------------------------------------------------------------------
