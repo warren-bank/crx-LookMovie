@@ -1,11 +1,8 @@
 // ==UserScript==
 // @name         LookMovie
 // @description  Watch videos in external player.
-// @version      1.0.0
-// @match        *://lookmovie183.xyz/s/*
-// @match        *://*.lookmovie183.xyz/s/*
-// @match        *://lookmovie183.xyz/m/*
-// @match        *://*.lookmovie183.xyz/m/*
+// @version      1.0.1
+// @include      /^https?:\/\/(?:[^\.\/]*\.)*lookmovie\d*\.xyz\/[sm]\/.*$/
 // @icon         https://lookmovie.io/favicon-96x96.png
 // @run-at       document-end
 // @grant        unsafeWindow
@@ -21,22 +18,38 @@
 // ----------------------------------------------------------------------------- notes
 
 /*
+ * ===============================================
  * The following URL patterns are disabled:
- * ========================================
-// @match        *://lookmovie.io/shows/view/*
-// @match        *://*.lookmovie.io/shows/view/*
-// @match        *://lookmovie.io/movies/view/*
-// @match        *://*.lookmovie.io/movies/view/*
+ * ===============================================
+// @include      /^https?:\/\/(?:[^\.\/]*\.)*lookmovie\.io\/(?:shows|movies)\/view\/.*$/
 
+ * ===============================================
  * The reason is:
  * - that even though the DOM includes metadata about available video streams,
  *   the hostname is not a permitted origin to make API requests,
  *   and the response is blocked by the CORS policy
+ * ===============================================
 
+ * ===============================================
  * To summarize:
  * - only webpages served from the same hostname as the API endpoint,
- *   which is currently: "lookmovie183.xyz"
  *   are allowed to retreive URLs for video streams by making API requests
+ * - this hostname appears to change daily
+ *   by rotating through a set of registered domains
+ *   having a sequentially numbered naming convention
+ * - for example:
+ *      lookmovie183.xyz
+ *      lookmovie184.xyz
+ * ===============================================
+ */
+
+/*
+ * ===============================================
+ * Documentation for using regex @include pattern:
+ *   https://wiki.greasespot.net/Include_and_exclude_rules
+ *   https://www.tampermonkey.net/documentation.php#_include
+ *   https://github.com/warren-bank/Android-WebMonkey/blob/master/android-studio-project/libs/webview-gm-lib/src/main/java/at/pardus/android/webview/gm/util/CriterionMatcher.java#L43
+ * ===============================================
  */
 
 // ----------------------------------------------------------------------------- constants
@@ -485,9 +498,10 @@ var download_video_url = function(video_id, is_movie, callback) {
   var url, headers, data, json_callback
 
   url = is_movie
-    ? ('https://lookmovie183.xyz/api/v1/security/movie-access?id_movie='     + video_id)
-    : ('https://lookmovie183.xyz/api/v1/security/episode-access?id_episode=' + video_id)
+    ? ('/api/v1/security/movie-access?id_movie='     + video_id)
+    : ('/api/v1/security/episode-access?id_episode=' + video_id)
 
+  url     = resolve_url(url)
   headers = null
   data    = null
 

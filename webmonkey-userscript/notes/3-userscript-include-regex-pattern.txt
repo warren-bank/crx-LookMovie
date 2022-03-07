@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------- references:
+
+GreaseMonkey:
+  https://wiki.greasespot.net/Include_and_exclude_rules
+
+TamperMonkey:
+  https://www.tampermonkey.net/documentation.php#_include
+
+Android-WebMonkey:
+  ======================================
+  https://github.com/warren-bank/Android-WebMonkey/blob/v01.00.20/android-studio-project/libs/webview-gm-lib/src/main/java/at/pardus/android/webview/gm/model/ScriptCriteria.java#L51
+    ScriptCriteria.testUrl(url) {
+      return CriterionMatcher.test(pattern, url)
+    }
+  ======================================
+  https://github.com/warren-bank/Android-WebMonkey/blob/v01.00.20/android-studio-project/libs/webview-gm-lib/src/main/java/at/pardus/android/webview/gm/util/CriterionMatcher.java#L37
+    CriterionMatcher.test(pattern, url) {
+      if (isRegExp(url)) {
+        return url.matches(".*" + convertJsRegExp(pattern) + ".*");
+      }
+    }
+  ======================================
+  https://github.com/warren-bank/Android-WebMonkey/blob/v01.00.20/android-studio-project/libs/webview-gm-lib/src/main/java/at/pardus/android/webview/gm/util/CriterionMatcher.java#L128
+    CriterionMatcher.convertJsRegExp(pattern) {
+      // strip leading and trailing '/' character from regex pattern
+    }
+
+-------------------------------------------------------------------------------- testing: Android-WebMonkey
+// https://replit.com/languages/java10
+
+test:
+=====
+class Main {
+  public static void main(String args[]) {
+    String url = "https://lookmovie183.xyz/s/1/50/s#S9-E11-164022";
+    String regex = "^https?:\\/\\/(?:[^\\.\\/]*\\.)*lookmovie\\d*\\.xyz\\/[sm]\\/.*$";
+    System.out.println(url.matches(regex));
+  }
+}
+
+result:
+=======
+true
+
+--------------------------------------------------------------------------------
+// https://replit.com/languages/java10
+
+test:
+=====
+class Main {
+  public static void main(String args[]) {
+    String url = "https://lookmovie183.xyz/s/1/50/s#S9-E11-164022";
+    String regex = ".*^https?:\\/\\/(?:[^\\.\\/]*\\.)*lookmovie\\d*\\.xyz\\/[sm]\\/.*$.*";
+    System.out.println(url.matches(regex));
+  }
+}
+
+result:
+=======
+true
+
+conclusions:
+============
+* Android-WebMonkey will work
+  - it appeared that I was going to need to update the method:
+      CriterionMatcher.convertJsRegExp(pattern)
+  - ex:
+      if (pattern[0] !== '^')
+        pattern = '.*' + pattern
+      if (pattern[pattern.length - 1] !== '$')
+        pattern = pattern + '.*'
+  - this assertion was wrong
+    * surprisingly, the existing code will work
+    * no update is needed
+
+--------------------------------------------------------------------------------
