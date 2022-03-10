@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LookMovie
 // @description  Watch videos in external player.
-// @version      1.0.1
+// @version      1.0.2
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*lookmovie\d*\.xyz\/[sm]\/.*$/
 // @icon         https://lookmovie.io/favicon-96x96.png
 // @run-at       document-end
@@ -663,6 +663,10 @@ var get_webcast_reloaded_url_proxy = function(hls_url, caption_url, referer_url)
 // -------------------------------------  DOM: static skeleton
 
 var reinitialize_dom = function() {
+  unsafeWindow.document.close()
+  unsafeWindow.document.write('')
+  unsafeWindow.document.close()
+
   var head = unsafeWindow.document.getElementsByTagName('head')[0]
   var body = unsafeWindow.document.body
 
@@ -675,6 +679,14 @@ var reinitialize_dom = function() {
       'body {',
       '  background-color: #fff !important;',
       '  text-align: left;',
+      '}',
+
+      'body > * {',
+      '  display: none !important;',
+      '}',
+
+      'body > div.' + constants.dom_classes.div_episodes + ' {',
+      '  display: block !important;',
       '}',
 
       // --------------------------------------------------- series title
