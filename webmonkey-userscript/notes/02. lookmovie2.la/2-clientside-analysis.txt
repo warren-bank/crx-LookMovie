@@ -1,0 +1,1365 @@
+--------------------------------------------------------------------------------
+// https://lookmovie2.la/shows/play/2741602-the-blacklist-2013
+
+<script>
+    window['show_storage'] = {
+        id_show: '50',
+        movie_title: 'The Blacklist',
+        movie_poster: 'https://cloudcdn.monster/images/p/w500/3a6ec0803b7b6e2dae7d807a6f59c062.jpg',
+        backdrop_huge: 'https://cloudcdn.monster/images/b/w1280/24f7b4d7634a8e4ff5f82299519c4ce5.jpg',
+        backdrop_medium: 'https://cloudcdn.monster/images/b/w780/24f7b4d7634a8e4ff5f82299519c4ce5.jpg',
+        backdrop_small: 'https://cloudcdn.monster/images/b/w342/24f7b4d7634a8e4ff5f82299519c4ce5.jpg',
+        title: 'The Blacklist',
+        year: '2013',
+    };
+</script>
+
+<ul class="episodes-items selected-season" data-season-episodes="1" style="display: none;">
+    <li class="episodes__item playing-now" data-id-episode="33994" data-season="1" data-episode="1">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 1</div>
+            <div class="episodes__date">23.09.2013</div>
+        </div>
+        <h4 class="episodes__title">Pilot</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="31505" data-season="1" data-episode="2">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 2</div>
+            <div class="episodes__date">30.09.2013</div>
+        </div>
+        <h4 class="episodes__title">The Freelancer</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="31479" data-season="1" data-episode="3">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 3</div>
+            <div class="episodes__date">07.10.2013</div>
+        </div>
+        <h4 class="episodes__title">Wujing</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="31465" data-season="1" data-episode="4">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 4</div>
+            <div class="episodes__date">14.10.2013</div>
+        </div>
+        <h4 class="episodes__title">The Stewmaker</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="33715" data-season="1" data-episode="5">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 5</div>
+            <div class="episodes__date">21.10.2013</div>
+        </div>
+        <h4 class="episodes__title">The Courier</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="33640" data-season="1" data-episode="6">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 6</div>
+            <div class="episodes__date">28.10.2013</div>
+        </div>
+        <h4 class="episodes__title">Gina Zanetakos</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="33524" data-season="1" data-episode="7">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 7</div>
+            <div class="episodes__date">04.11.2013</div>
+        </div>
+        <h4 class="episodes__title">Frederick Barnes</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="33429" data-season="1" data-episode="8">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 8</div>
+            <div class="episodes__date">11.11.2013</div>
+        </div>
+        <h4 class="episodes__title">General Ludd (No. 109)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="33235" data-season="1" data-episode="9">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 9</div>
+            <div class="episodes__date">25.11.2013</div>
+        </div>
+        <h4 class="episodes__title">Anslo Garrick (1)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="33183" data-season="1" data-episode="10">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 10</div>
+            <div class="episodes__date">02.12.2013</div>
+        </div>
+        <h4 class="episodes__title">Anslo Garrick (2)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="33847" data-season="1" data-episode="11">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 11</div>
+            <div class="episodes__date">13.01.2014</div>
+        </div>
+        <h4 class="episodes__title">The Good Samaritan Killer</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="30502" data-season="1" data-episode="12">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 12</div>
+            <div class="episodes__date">20.01.2014</div>
+        </div>
+        <h4 class="episodes__title">The Alchemist</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="32681" data-season="1" data-episode="13">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 13</div>
+            <div class="episodes__date">27.01.2014</div>
+        </div>
+        <h4 class="episodes__title">The Cyprus Agency</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="30378" data-season="1" data-episode="14">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 14</div>
+            <div class="episodes__date">24.02.2014</div>
+        </div>
+        <h4 class="episodes__title">Madeline Pratt</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="32579" data-season="1" data-episode="15">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 15</div>
+            <div class="episodes__date">03.03.2014</div>
+        </div>
+        <h4 class="episodes__title">The Judge</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="32515" data-season="1" data-episode="16">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 16</div>
+            <div class="episodes__date">17.03.2014</div>
+        </div>
+        <h4 class="episodes__title">Mako Tanida</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="30362" data-season="1" data-episode="17">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 17</div>
+            <div class="episodes__date">24.03.2014</div>
+        </div>
+        <h4 class="episodes__title">Ivan</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="32340" data-season="1" data-episode="18">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 18</div>
+            <div class="episodes__date">31.03.2014</div>
+        </div>
+        <h4 class="episodes__title">Milton Bobbit</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="30941" data-season="1" data-episode="19">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 19</div>
+            <div class="episodes__date">21.04.2014</div>
+        </div>
+        <h4 class="episodes__title">The Pavlovich Brothers</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="30165" data-season="1" data-episode="20">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 20</div>
+            <div class="episodes__date">28.04.2014</div>
+        </div>
+        <h4 class="episodes__title">The Kingmaker</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="30135" data-season="1" data-episode="21">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 21</div>
+            <div class="episodes__date">05.05.2014</div>
+        </div>
+        <h4 class="episodes__title">Berlin (1)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="30119" data-season="1" data-episode="22">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 22</div>
+            <div class="episodes__date">12.05.2014</div>
+        </div>
+        <h4 class="episodes__title">Berlin: Conclusion (2)</h4>
+    </li>
+</ul>
+<ul class="episodes-items " data-season-episodes="2" style="display: none;">
+    <li class="episodes__item " data-id-episode="24567" data-season="2" data-episode="1">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 1</div>
+            <div class="episodes__date">22.09.2014</div>
+        </div>
+        <h4 class="episodes__title">Lord Baltimore</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="24456" data-season="2" data-episode="2">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 2</div>
+            <div class="episodes__date">29.09.2014</div>
+        </div>
+        <h4 class="episodes__title">Monarch Douglas Bank</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="29894" data-season="2" data-episode="3">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 3</div>
+            <div class="episodes__date">06.10.2014</div>
+        </div>
+        <h4 class="episodes__title">Dr. James Covington</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="30685" data-season="2" data-episode="4">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 4</div>
+            <div class="episodes__date">13.10.2014</div>
+        </div>
+        <h4 class="episodes__title">Dr. Linus Creel</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="28209" data-season="2" data-episode="5">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 5</div>
+            <div class="episodes__date">20.10.2014</div>
+        </div>
+        <h4 class="episodes__title">The Front</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="29817" data-season="2" data-episode="6">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 6</div>
+            <div class="episodes__date">27.10.2014</div>
+        </div>
+        <h4 class="episodes__title">The Mombasa Cartel</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="29756" data-season="2" data-episode="7">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 7</div>
+            <div class="episodes__date">03.11.2014</div>
+        </div>
+        <h4 class="episodes__title">The Scimitar</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="29724" data-season="2" data-episode="8">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 8</div>
+            <div class="episodes__date">10.11.2014</div>
+        </div>
+        <h4 class="episodes__title">The Decembrist</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="25895" data-season="2" data-episode="9">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 9</div>
+            <div class="episodes__date">01.02.2015</div>
+        </div>
+        <h4 class="episodes__title">Luther Braxton (1)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="24154" data-season="2" data-episode="10">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 10</div>
+            <div class="episodes__date">05.02.2015</div>
+        </div>
+        <h4 class="episodes__title">Luther Braxton: Conclusion (2)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="24106" data-season="2" data-episode="11">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 11</div>
+            <div class="episodes__date">12.02.2015</div>
+        </div>
+        <h4 class="episodes__title">Ruslan Denisov</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="24114" data-season="2" data-episode="12">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 12</div>
+            <div class="episodes__date">19.02.2015</div>
+        </div>
+        <h4 class="episodes__title">The Kenyon Family</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="24061" data-season="2" data-episode="13">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 13</div>
+            <div class="episodes__date">26.02.2015</div>
+        </div>
+        <h4 class="episodes__title">The Deer Hunter</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="23980" data-season="2" data-episode="14">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 14</div>
+            <div class="episodes__date">05.03.2015</div>
+        </div>
+        <h4 class="episodes__title">T. Earl King VI</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="23905" data-season="2" data-episode="15">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 15</div>
+            <div class="episodes__date">12.03.2015</div>
+        </div>
+        <h4 class="episodes__title">The Major</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="23943" data-season="2" data-episode="16">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 16</div>
+            <div class="episodes__date">19.03.2015</div>
+        </div>
+        <h4 class="episodes__title">Tom Keen</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="23848" data-season="2" data-episode="17">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 17</div>
+            <div class="episodes__date">26.03.2015</div>
+        </div>
+        <h4 class="episodes__title">The Longevity Initiative</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="23795" data-season="2" data-episode="18">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 18</div>
+            <div class="episodes__date">02.04.2015</div>
+        </div>
+        <h4 class="episodes__title">Vanessa Cruz</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="25191" data-season="2" data-episode="19">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 19</div>
+            <div class="episodes__date">23.04.2015</div>
+        </div>
+        <h4 class="episodes__title">Leonard Caul</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="21763" data-season="2" data-episode="20">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 20</div>
+            <div class="episodes__date">30.04.2015</div>
+        </div>
+        <h4 class="episodes__title">Quon Zhang</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="21682" data-season="2" data-episode="21">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 21</div>
+            <div class="episodes__date">07.05.2015</div>
+        </div>
+        <h4 class="episodes__title">Karakurt</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="21650" data-season="2" data-episode="22">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 22</div>
+            <div class="episodes__date">14.05.2015</div>
+        </div>
+        <h4 class="episodes__title">Tom Connolly</h4>
+    </li>
+</ul>
+<ul class="episodes-items " data-season-episodes="3" style="display: none;">
+    <li class="episodes__item " data-id-episode="21449" data-season="3" data-episode="1">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 1</div>
+            <div class="episodes__date">01.10.2015</div>
+        </div>
+        <h4 class="episodes__title">The Troll Farmer</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="22296" data-season="3" data-episode="2">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 2</div>
+            <div class="episodes__date">08.10.2015</div>
+        </div>
+        <h4 class="episodes__title">Marvin Gerard</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="21322" data-season="3" data-episode="3">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 3</div>
+            <div class="episodes__date">15.10.2015</div>
+        </div>
+        <h4 class="episodes__title">Eli Matchett</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="21225" data-season="3" data-episode="4">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 4</div>
+            <div class="episodes__date">22.10.2015</div>
+        </div>
+        <h4 class="episodes__title">The Djinn</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="21193" data-season="3" data-episode="5">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 5</div>
+            <div class="episodes__date">29.10.2015</div>
+        </div>
+        <h4 class="episodes__title">Arioch Cain</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="21149" data-season="3" data-episode="6">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 6</div>
+            <div class="episodes__date">05.11.2015</div>
+        </div>
+        <h4 class="episodes__title">Sir Crispin Crandall</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="21002" data-season="3" data-episode="7">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 7</div>
+            <div class="episodes__date">12.11.2015</div>
+        </div>
+        <h4 class="episodes__title">Zal Bin Hasaan</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="20941" data-season="3" data-episode="8">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 8</div>
+            <div class="episodes__date">19.11.2015</div>
+        </div>
+        <h4 class="episodes__title">Kings of the Highway</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="20187" data-season="3" data-episode="9">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 9</div>
+            <div class="episodes__date">07.01.2016</div>
+        </div>
+        <h4 class="episodes__title">The Director (1)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="20113" data-season="3" data-episode="10">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 10</div>
+            <div class="episodes__date">14.01.2016</div>
+        </div>
+        <h4 class="episodes__title">The Director: Conclusion (2)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="19974" data-season="3" data-episode="11">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 11</div>
+            <div class="episodes__date">21.01.2016</div>
+        </div>
+        <h4 class="episodes__title">Mr. Gregory Devry</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="19984" data-season="3" data-episode="12">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 12</div>
+            <div class="episodes__date">28.01.2016</div>
+        </div>
+        <h4 class="episodes__title">The Vehm</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="19628" data-season="3" data-episode="13">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 13</div>
+            <div class="episodes__date">04.02.2016</div>
+        </div>
+        <h4 class="episodes__title">Alistair Pitt</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="19532" data-season="3" data-episode="14">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 14</div>
+            <div class="episodes__date">11.02.2016</div>
+        </div>
+        <h4 class="episodes__title">Lady Ambrosia</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="19460" data-season="3" data-episode="15">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 15</div>
+            <div class="episodes__date">18.02.2016</div>
+        </div>
+        <h4 class="episodes__title">Drexel</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="19318" data-season="3" data-episode="16">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 16</div>
+            <div class="episodes__date">25.02.2016</div>
+        </div>
+        <h4 class="episodes__title">The Caretaker</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="18334" data-season="3" data-episode="17">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 17</div>
+            <div class="episodes__date">07.04.2016</div>
+        </div>
+        <h4 class="episodes__title">Mr. Solomon (1)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="18272" data-season="3" data-episode="18">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 18</div>
+            <div class="episodes__date">14.04.2016</div>
+        </div>
+        <h4 class="episodes__title">Mr. Solomon: Conclusion (2)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="18868" data-season="3" data-episode="19">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 19</div>
+            <div class="episodes__date">21.04.2016</div>
+        </div>
+        <h4 class="episodes__title">Cape May</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="18140" data-season="3" data-episode="20">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 20</div>
+            <div class="episodes__date">28.04.2016</div>
+        </div>
+        <h4 class="episodes__title">The Artax Network</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="17838" data-season="3" data-episode="21">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 21</div>
+            <div class="episodes__date">05.05.2016</div>
+        </div>
+        <h4 class="episodes__title">Susan Hargrave</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="17743" data-season="3" data-episode="22">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 22</div>
+            <div class="episodes__date">12.05.2016</div>
+        </div>
+        <h4 class="episodes__title">Alexander Kirk (1)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="17641" data-season="3" data-episode="23">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 23</div>
+            <div class="episodes__date">19.05.2016</div>
+        </div>
+        <h4 class="episodes__title">Alexander Kirk: Conclusion (2)</h4>
+    </li>
+</ul>
+<ul class="episodes-items " data-season-episodes="4" style="display: none;">
+    <li class="episodes__item " data-id-episode="16243" data-season="4" data-episode="1">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 1</div>
+            <div class="episodes__date">22.09.2016</div>
+        </div>
+        <h4 class="episodes__title">Esteban</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="16086" data-season="4" data-episode="2">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 2</div>
+            <div class="episodes__date">29.09.2016</div>
+        </div>
+        <h4 class="episodes__title">Mato</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="15773" data-season="4" data-episode="3">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 3</div>
+            <div class="episodes__date">06.10.2016</div>
+        </div>
+        <h4 class="episodes__title">Miles McGrath</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="15618" data-season="4" data-episode="4">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 4</div>
+            <div class="episodes__date">13.10.2016</div>
+        </div>
+        <h4 class="episodes__title">Gaia</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="15483" data-season="4" data-episode="5">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 5</div>
+            <div class="episodes__date">20.10.2016</div>
+        </div>
+        <h4 class="episodes__title">The Lindquist Concern</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="15407" data-season="4" data-episode="6">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 6</div>
+            <div class="episodes__date">27.10.2016</div>
+        </div>
+        <h4 class="episodes__title">The Thrushes</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="15098" data-season="4" data-episode="7">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 7</div>
+            <div class="episodes__date">03.11.2016</div>
+        </div>
+        <h4 class="episodes__title">Dr. Adrian Shaw (1)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="14961" data-season="4" data-episode="8">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 8</div>
+            <div class="episodes__date">10.11.2016</div>
+        </div>
+        <h4 class="episodes__title">Dr. Adrian Shaw: Conclusion (2)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="13935" data-season="4" data-episode="9">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 9</div>
+            <div class="episodes__date">05.01.2017</div>
+        </div>
+        <h4 class="episodes__title">Lipet's Seafood Company</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="13658" data-season="4" data-episode="10">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 10</div>
+            <div class="episodes__date">12.01.2017</div>
+        </div>
+        <h4 class="episodes__title">The Forecaster</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="13494" data-season="4" data-episode="11">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 11</div>
+            <div class="episodes__date">19.01.2017</div>
+        </div>
+        <h4 class="episodes__title">The Harem</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="13246" data-season="4" data-episode="12">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 12</div>
+            <div class="episodes__date">02.02.2017</div>
+        </div>
+        <h4 class="episodes__title">Natalie Luca</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="13183" data-season="4" data-episode="13">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 13</div>
+            <div class="episodes__date">09.02.2017</div>
+        </div>
+        <h4 class="episodes__title">Isabella Stone</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="12990" data-season="4" data-episode="14">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 14</div>
+            <div class="episodes__date">16.02.2017</div>
+        </div>
+        <h4 class="episodes__title">The Architect</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="12848" data-season="4" data-episode="15">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 15</div>
+            <div class="episodes__date">23.02.2017</div>
+        </div>
+        <h4 class="episodes__title">The Apothecary</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="12193" data-season="4" data-episode="16">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 16</div>
+            <div class="episodes__date">20.04.2017</div>
+        </div>
+        <h4 class="episodes__title">Dembe Zuma</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="12192" data-season="4" data-episode="17">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 17</div>
+            <div class="episodes__date">20.04.2017</div>
+        </div>
+        <h4 class="episodes__title">Requiem</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="12001" data-season="4" data-episode="18">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 18</div>
+            <div class="episodes__date">27.04.2017</div>
+        </div>
+        <h4 class="episodes__title">Philomena</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="11926" data-season="4" data-episode="19">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 19</div>
+            <div class="episodes__date">04.05.2017</div>
+        </div>
+        <h4 class="episodes__title">Dr. Bogdan Krilov</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="11728" data-season="4" data-episode="20">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 20</div>
+            <div class="episodes__date">11.05.2017</div>
+        </div>
+        <h4 class="episodes__title">The Debt Collector</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="11623" data-season="4" data-episode="21">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 21</div>
+            <div class="episodes__date">18.05.2017</div>
+        </div>
+        <h4 class="episodes__title">Mr. Kaplan (1)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="11603" data-season="4" data-episode="22">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 22</div>
+            <div class="episodes__date">18.05.2017</div>
+        </div>
+        <h4 class="episodes__title">Mr. Kaplan: Conclusion (2)</h4>
+    </li>
+</ul>
+<ul class="episodes-items " data-season-episodes="5" style="display: none;">
+    <li class="episodes__item " data-id-episode="9617" data-season="5" data-episode="1">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 1</div>
+            <div class="episodes__date">27.09.2017</div>
+        </div>
+        <h4 class="episodes__title">Smokey Putnum</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="9495" data-season="5" data-episode="2">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 2</div>
+            <div class="episodes__date">04.10.2017</div>
+        </div>
+        <h4 class="episodes__title">Greyson Blaise</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="9345" data-season="5" data-episode="3">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 3</div>
+            <div class="episodes__date">11.10.2017</div>
+        </div>
+        <h4 class="episodes__title">Miss Rebecca Thrall</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="9107" data-season="5" data-episode="4">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 4</div>
+            <div class="episodes__date">18.10.2017</div>
+        </div>
+        <h4 class="episodes__title">The Endling</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="8952" data-season="5" data-episode="5">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 5</div>
+            <div class="episodes__date">25.10.2017</div>
+        </div>
+        <h4 class="episodes__title">Ilyas Surkov</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="8816" data-season="5" data-episode="6">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 6</div>
+            <div class="episodes__date">01.11.2017</div>
+        </div>
+        <h4 class="episodes__title">The Travel Agency</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="7270" data-season="5" data-episode="7">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 7</div>
+            <div class="episodes__date">08.11.2017</div>
+        </div>
+        <h4 class="episodes__title">The Kilgannon Corporation</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="7163" data-season="5" data-episode="8">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 8</div>
+            <div class="episodes__date">15.11.2017</div>
+        </div>
+        <h4 class="episodes__title">Ian Garvey</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="7482" data-season="5" data-episode="9">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 9</div>
+            <div class="episodes__date">03.01.2018</div>
+        </div>
+        <h4 class="episodes__title">Ruin</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="8077" data-season="5" data-episode="10">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 10</div>
+            <div class="episodes__date">10.01.2018</div>
+        </div>
+        <h4 class="episodes__title">The Informant</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="7940" data-season="5" data-episode="11">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 11</div>
+            <div class="episodes__date">17.01.2018</div>
+        </div>
+        <h4 class="episodes__title">Abraham Stern</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="7761" data-season="5" data-episode="12">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 12</div>
+            <div class="episodes__date">31.01.2018</div>
+        </div>
+        <h4 class="episodes__title">The Cook</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="6420" data-season="5" data-episode="13">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 13</div>
+            <div class="episodes__date">07.02.2018</div>
+        </div>
+        <h4 class="episodes__title">The Invisible Hand</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="6099" data-season="5" data-episode="14">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 14</div>
+            <div class="episodes__date">28.02.2018</div>
+        </div>
+        <h4 class="episodes__title">Mr. Raleigh Sinclair III</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="6957" data-season="5" data-episode="15">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 15</div>
+            <div class="episodes__date">07.03.2018</div>
+        </div>
+        <h4 class="episodes__title">Pattie Sue Edwards</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="6827" data-season="5" data-episode="16">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 16</div>
+            <div class="episodes__date">14.03.2018</div>
+        </div>
+        <h4 class="episodes__title">The Capricorn Killer</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="6038" data-season="5" data-episode="17">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 17</div>
+            <div class="episodes__date">04.04.2018</div>
+        </div>
+        <h4 class="episodes__title">Anna-Gracia Duerte</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="5931" data-season="5" data-episode="18">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 18</div>
+            <div class="episodes__date">11.04.2018</div>
+        </div>
+        <h4 class="episodes__title">Zarak Mosadek</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="5670" data-season="5" data-episode="19">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 19</div>
+            <div class="episodes__date">25.04.2018</div>
+        </div>
+        <h4 class="episodes__title">Ian Garvey: Conclusion</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="4687" data-season="5" data-episode="20">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 20</div>
+            <div class="episodes__date">02.05.2018</div>
+        </div>
+        <h4 class="episodes__title">Nicholas T. Moore</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="4564" data-season="5" data-episode="21">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 21</div>
+            <div class="episodes__date">09.05.2018</div>
+        </div>
+        <h4 class="episodes__title">Lawrence Dane Devlin</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="4411" data-season="5" data-episode="22">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 22</div>
+            <div class="episodes__date">16.05.2018</div>
+        </div>
+        <h4 class="episodes__title">Sutton Ross</h4>
+    </li>
+</ul>
+<ul class="episodes-items " data-season-episodes="6" style="display: none;">
+    <li class="episodes__item " data-id-episode="2216" data-season="6" data-episode="1">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 1</div>
+            <div class="episodes__date">03.01.2019</div>
+        </div>
+        <h4 class="episodes__title">Dr. Hans Koehler</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="2464" data-season="6" data-episode="2">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 2</div>
+            <div class="episodes__date">04.01.2019</div>
+        </div>
+        <h4 class="episodes__title">The Corsican</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="2442" data-season="6" data-episode="3">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 3</div>
+            <div class="episodes__date">11.01.2019</div>
+        </div>
+        <h4 class="episodes__title">The Pharmacist</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="3960" data-season="6" data-episode="4">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 4</div>
+            <div class="episodes__date">18.01.2019</div>
+        </div>
+        <h4 class="episodes__title">The Pawnbrokers</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="15180" data-season="6" data-episode="5">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 5</div>
+            <div class="episodes__date">01.02.2019</div>
+        </div>
+        <h4 class="episodes__title">Alter Ego</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="21360" data-season="6" data-episode="6">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 6</div>
+            <div class="episodes__date">08.02.2019</div>
+        </div>
+        <h4 class="episodes__title">The Ethicist</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="26262" data-season="6" data-episode="7">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 7</div>
+            <div class="episodes__date">15.02.2019</div>
+        </div>
+        <h4 class="episodes__title">General Shiro</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="32733" data-season="6" data-episode="8">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 8</div>
+            <div class="episodes__date">22.02.2019</div>
+        </div>
+        <h4 class="episodes__title">Marko Jankowics</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="32732" data-season="6" data-episode="9">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 9</div>
+            <div class="episodes__date">22.02.2019</div>
+        </div>
+        <h4 class="episodes__title">Minister D</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="42496" data-season="6" data-episode="10">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 10</div>
+            <div class="episodes__date">08.03.2019</div>
+        </div>
+        <h4 class="episodes__title">The Cryptobanker</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="45913" data-season="6" data-episode="11">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 11</div>
+            <div class="episodes__date">15.03.2019</div>
+        </div>
+        <h4 class="episodes__title">Bastien Moreau</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="47545" data-season="6" data-episode="12">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 12</div>
+            <div class="episodes__date">22.03.2019</div>
+        </div>
+        <h4 class="episodes__title">Bastien Moreau: Conclusion (2)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="49421" data-season="6" data-episode="13">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 13</div>
+            <div class="episodes__date">29.03.2019</div>
+        </div>
+        <h4 class="episodes__title">Robert Vesco</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="49423" data-season="6" data-episode="14">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 14</div>
+            <div class="episodes__date">29.03.2019</div>
+        </div>
+        <h4 class="episodes__title">The Osterman Umbrella Company</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="49787" data-season="6" data-episode="15">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 15</div>
+            <div class="episodes__date">05.04.2019</div>
+        </div>
+        <h4 class="episodes__title">Olivia Olson</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="49880" data-season="6" data-episode="16">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 16</div>
+            <div class="episodes__date">12.04.2019</div>
+        </div>
+        <h4 class="episodes__title">Lady Luck</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="50226" data-season="6" data-episode="17">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 17</div>
+            <div class="episodes__date">19.04.2019</div>
+        </div>
+        <h4 class="episodes__title">The Third Estate</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="50246" data-season="6" data-episode="18">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 18</div>
+            <div class="episodes__date">26.04.2019</div>
+        </div>
+        <h4 class="episodes__title">The Brockton College Killer</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="50254" data-season="6" data-episode="19">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 19</div>
+            <div class="episodes__date">26.04.2019</div>
+        </div>
+        <h4 class="episodes__title">Rassvet</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="50464" data-season="6" data-episode="20">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 20</div>
+            <div class="episodes__date">03.05.2019</div>
+        </div>
+        <h4 class="episodes__title">Guillermo Rizal</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="50606" data-season="6" data-episode="21">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 21</div>
+            <div class="episodes__date">10.05.2019</div>
+        </div>
+        <h4 class="episodes__title">Anna McMahon</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="50652" data-season="6" data-episode="22">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 22</div>
+            <div class="episodes__date">17.05.2019</div>
+        </div>
+        <h4 class="episodes__title">Robert Diaz</h4>
+    </li>
+</ul>
+<ul class="episodes-items " data-season-episodes="7" style="display: none;">
+    <li class="episodes__item " data-id-episode="58052" data-season="7" data-episode="1">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 1</div>
+            <div class="episodes__date">04.10.2019</div>
+        </div>
+        <h4 class="episodes__title">Louis T. Steinhil</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="59269" data-season="7" data-episode="2">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 2</div>
+            <div class="episodes__date">11.10.2019</div>
+        </div>
+        <h4 class="episodes__title">Louis T. Steinhil: Conclusion</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="60403" data-season="7" data-episode="3">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 3</div>
+            <div class="episodes__date">18.10.2019</div>
+        </div>
+        <h4 class="episodes__title">Les Fleurs Du Mal</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="61382" data-season="7" data-episode="4">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 4</div>
+            <div class="episodes__date">25.10.2019</div>
+        </div>
+        <h4 class="episodes__title">Kuwait</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="62489" data-season="7" data-episode="5">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 5</div>
+            <div class="episodes__date">01.11.2019</div>
+        </div>
+        <h4 class="episodes__title">Norman Devane</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="64436" data-season="7" data-episode="6">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 6</div>
+            <div class="episodes__date">08.11.2019</div>
+        </div>
+        <h4 class="episodes__title">Dr. Lewis Powell</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="66236" data-season="7" data-episode="7">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 7</div>
+            <div class="episodes__date">15.11.2019</div>
+        </div>
+        <h4 class="episodes__title">Hannah Hayes</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="67815" data-season="7" data-episode="8">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 8</div>
+            <div class="episodes__date">22.11.2019</div>
+        </div>
+        <h4 class="episodes__title">The Hawaladar</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="70957" data-season="7" data-episode="9">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 9</div>
+            <div class="episodes__date">06.12.2019</div>
+        </div>
+        <h4 class="episodes__title">Orion Relocation Services</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="71960" data-season="7" data-episode="10">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 10</div>
+            <div class="episodes__date">13.12.2019</div>
+        </div>
+        <h4 class="episodes__title">Katarina Rostova</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="89779" data-season="7" data-episode="11">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 11</div>
+            <div class="episodes__date">20.03.2020</div>
+        </div>
+        <h4 class="episodes__title">Victoria Fenberg</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="90343" data-season="7" data-episode="12">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 12</div>
+            <div class="episodes__date">27.03.2020</div>
+        </div>
+        <h4 class="episodes__title">Cornelius Ruck</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="90884" data-season="7" data-episode="13">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 13</div>
+            <div class="episodes__date">03.04.2020</div>
+        </div>
+        <h4 class="episodes__title">Newton Purcell</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="91275" data-season="7" data-episode="14">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 14</div>
+            <div class="episodes__date">10.04.2020</div>
+        </div>
+        <h4 class="episodes__title">Twamie Ullulaq</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="91781" data-season="7" data-episode="15">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 15</div>
+            <div class="episodes__date">17.04.2020</div>
+        </div>
+        <h4 class="episodes__title">Gordon Kemp</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="92390" data-season="7" data-episode="16">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 16</div>
+            <div class="episodes__date">24.04.2020</div>
+        </div>
+        <h4 class="episodes__title">Nyle Hatcher</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="93034" data-season="7" data-episode="17">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 17</div>
+            <div class="episodes__date">01.05.2020</div>
+        </div>
+        <h4 class="episodes__title">Brothers</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="93557" data-season="7" data-episode="18">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 18</div>
+            <div class="episodes__date">08.05.2020</div>
+        </div>
+        <h4 class="episodes__title">Roy Cain</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="94548" data-season="7" data-episode="19">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 19</div>
+            <div class="episodes__date">15.05.2020</div>
+        </div>
+        <h4 class="episodes__title">The Kazanjian Brothers</h4>
+    </li>
+</ul>
+<ul class="episodes-items " data-season-episodes="8" style="display: none;">
+    <li class="episodes__item " data-id-episode="118885" data-season="8" data-episode="1">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 1</div>
+            <div class="episodes__date">13.11.2020</div>
+        </div>
+        <h4 class="episodes__title">Roanoke</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="119320" data-season="8" data-episode="2">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 2</div>
+            <div class="episodes__date">20.11.2020</div>
+        </div>
+        <h4 class="episodes__title">Katarina Rostova: Conclusion</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="120486" data-season="8" data-episode="3">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 3</div>
+            <div class="episodes__date">22.01.2021</div>
+        </div>
+        <h4 class="episodes__title">16 Ounces</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="120656" data-season="8" data-episode="4">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 4</div>
+            <div class="episodes__date">29.01.2021</div>
+        </div>
+        <h4 class="episodes__title">Elizabeth Keen (No. 1)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="121292" data-season="8" data-episode="5">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 5</div>
+            <div class="episodes__date">05.02.2021</div>
+        </div>
+        <h4 class="episodes__title">The Fribourg Confidence</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="122552" data-season="8" data-episode="6">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 6</div>
+            <div class="episodes__date">12.02.2021</div>
+        </div>
+        <h4 class="episodes__title">The Wellstone Agency</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="123405" data-season="8" data-episode="7">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 7</div>
+            <div class="episodes__date">19.02.2021</div>
+        </div>
+        <h4 class="episodes__title">Chemical Mary (No. 143)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="124479" data-season="8" data-episode="8">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 8</div>
+            <div class="episodes__date">26.02.2021</div>
+        </div>
+        <h4 class="episodes__title">Ogden Greeley</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="125321" data-season="8" data-episode="9">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 9</div>
+            <div class="episodes__date">05.03.2021</div>
+        </div>
+        <h4 class="episodes__title">The Cyranoid (No. 35)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="125656" data-season="8" data-episode="10">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 10</div>
+            <div class="episodes__date">12.03.2021</div>
+        </div>
+        <h4 class="episodes__title">Dr. Laken Perillos (No. 70)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="126557" data-season="8" data-episode="11">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 11</div>
+            <div class="episodes__date">26.03.2021</div>
+        </div>
+        <h4 class="episodes__title">Captain Kidd (No. 96)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="126780" data-season="8" data-episode="12">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 12</div>
+            <div class="episodes__date">02.04.2021</div>
+        </div>
+        <h4 class="episodes__title">Rakitin</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="127049" data-season="8" data-episode="13">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 13</div>
+            <div class="episodes__date">16.04.2021</div>
+        </div>
+        <h4 class="episodes__title">Anne</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="127177" data-season="8" data-episode="14">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 14</div>
+            <div class="episodes__date">23.04.2021</div>
+        </div>
+        <h4 class="episodes__title">Misère</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="127530" data-season="8" data-episode="15">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 15</div>
+            <div class="episodes__date">30.04.2021</div>
+        </div>
+        <h4 class="episodes__title">The Russian Knot</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="127654" data-season="8" data-episode="16">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 16</div>
+            <div class="episodes__date">07.05.2021</div>
+        </div>
+        <h4 class="episodes__title">Nicholas Obenrader</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="127858" data-season="8" data-episode="17">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 17</div>
+            <div class="episodes__date">14.05.2021</div>
+        </div>
+        <h4 class="episodes__title">Ivan Stepanov</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="128073" data-season="8" data-episode="18">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 18</div>
+            <div class="episodes__date">21.05.2021</div>
+        </div>
+        <h4 class="episodes__title">The Protean (No. 36)</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="128224" data-season="8" data-episode="19">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 19</div>
+            <div class="episodes__date">28.05.2021</div>
+        </div>
+        <h4 class="episodes__title">Balthazar &quot;Bino&quot; Baker</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="128330" data-season="8" data-episode="20">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 20</div>
+            <div class="episodes__date">04.06.2021</div>
+        </div>
+        <h4 class="episodes__title">Godwin Page</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="128637" data-season="8" data-episode="21">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 21</div>
+            <div class="episodes__date">16.06.2021</div>
+        </div>
+        <h4 class="episodes__title">Nachalo</h4>
+    </li>
+    <li class="episodes__item " data-id-episode="128868" data-season="8" data-episode="22">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 22</div>
+            <div class="episodes__date">23.06.2021</div>
+        </div>
+        <h4 class="episodes__title">Konets</h4>
+    </li>
+</ul>
+<ul class="episodes-items " data-season-episodes="9" style="display: none;">
+    <li class="episodes__item " data-id-episode="149922" data-season="9" data-episode="1">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 1</div>
+            <div class="episodes__date">21.10.2021</div>
+        </div>
+        <h4 class="episodes__title"></h4>
+    </li>
+    <li class="episodes__item " data-id-episode="151050" data-season="9" data-episode="2">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 2</div>
+            <div class="episodes__date">28.10.2021</div>
+        </div>
+        <h4 class="episodes__title"></h4>
+    </li>
+    <li class="episodes__item " data-id-episode="152415" data-season="9" data-episode="3">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 3</div>
+            <div class="episodes__date">04.11.2021</div>
+        </div>
+        <h4 class="episodes__title"></h4>
+    </li>
+    <li class="episodes__item " data-id-episode="153334" data-season="9" data-episode="4">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 4</div>
+            <div class="episodes__date">11.11.2021</div>
+        </div>
+        <h4 class="episodes__title"></h4>
+    </li>
+    <li class="episodes__item " data-id-episode="154109" data-season="9" data-episode="5">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 5</div>
+            <div class="episodes__date">18.11.2021</div>
+        </div>
+        <h4 class="episodes__title"></h4>
+    </li>
+    <li class="episodes__item " data-id-episode="156115" data-season="9" data-episode="6">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 6</div>
+            <div class="episodes__date">09.12.2021</div>
+        </div>
+        <h4 class="episodes__title"></h4>
+    </li>
+    <li class="episodes__item " data-id-episode="158954" data-season="9" data-episode="7">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 7</div>
+            <div class="episodes__date">06.01.2022</div>
+        </div>
+        <h4 class="episodes__title"></h4>
+    </li>
+    <li class="episodes__item " data-id-episode="159218" data-season="9" data-episode="8">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 8</div>
+            <div class="episodes__date">13.01.2022</div>
+        </div>
+        <h4 class="episodes__title"></h4>
+    </li>
+    <li class="episodes__item " data-id-episode="159720" data-season="9" data-episode="9">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 9</div>
+            <div class="episodes__date">20.01.2022</div>
+        </div>
+        <h4 class="episodes__title"></h4>
+    </li>
+    <li class="episodes__item " data-id-episode="163757" data-season="9" data-episode="10">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 10</div>
+            <div class="episodes__date">25.02.2022</div>
+        </div>
+        <h4 class="episodes__title"></h4>
+    </li>
+    <li class="episodes__item " data-id-episode="164022" data-season="9" data-episode="11">
+        <div class="episodes__heading">
+            <div class="episodes__number">Episode 11</div>
+            <div class="episodes__date">04.03.2022</div>
+        </div>
+        <h4 class="episodes__title"></h4>
+    </li>
+</ul>
+
+--------------------------------------------------------------------------------
+// https://lookmovie2.la/movies/play/1086064-bill-ted-face-the-music-2020
+
+<script>
+    window['movie_storage'] = {
+        id_movie: 58354,
+        key: 'lm.mv_58354',
+        movie_poster: 'https://cloudcdn.monster/images/p/w500/e69d1f00793879f21f1788c036f1bfb1.jpg',
+        backdrop_huge: 'https://cloudcdn.monster/images/b/w1280/d1977d1e6588a57934bcb4ce54ee438e.jpg',
+        backdrop_medium: 'https://cloudcdn.monster/images/b/w780/d1977d1e6588a57934bcb4ce54ee438e.jpg',
+        backdrop_small: 'https://cloudcdn.monster/images/b/w342/d1977d1e6588a57934bcb4ce54ee438e.jpg',
+        title: 'Bill & Ted Face the Music',
+        year: '2020',
+    };
+</script>
+
+--------------------------------------------------------------------------------
+
+notes:
+======
+
+* pages that describe the show/movie share the same DOM elements as the corresponding video player pages
+  - examples:
+      https://lookmovie2.la/shows/view/2741602-the-blacklist-2013
+      https://lookmovie2.la/movies/view/1086064-bill-ted-face-the-music-2020
+  - if the @include regex were configured to match these pages,
+    then the userscript would work
+  - but I'm going to refrain from doing so,
+    because these pages provide a nice description of the video content,
+    which (from a UI standpoint) is helpful,
+    and then the user can click the "play" button..
+    which will load the corresponding video player page,
+    and the userscript will run
+
+--------------------------------------------------------------------------------

@@ -12,15 +12,15 @@ https://lookmovie183.xyz/api/v1/security/episode-access?id_episode=164022
 
 {
   "success": true,
-  "subtitles": [{
-    "language": "English",
-    "file": "/storage2/shows/2741602-the-blacklist-2013/1425656-S9-E11-1646474974/subtitles/en.vtt"
-  }],
   "streams": {
     "480": "https://na2.crasping.site/html/aes/b36eb87679577c6c761a23821f162517/1646580644/lookmovie183.xyz/storage2/shows/2741602-the-blacklist-2013/1425656-S9-E11-1646474974/8246802c0c207f49329e70a27e930f65.mp4/index.m3u8",
     "720": "https://na2.crasping.site/html/aes/f1bfcf81adfbe9d83c4bb4991504036c/1646580644/lookmovie183.xyz/storage2/shows/2741602-the-blacklist-2013/1425656-S9-E11-1646474974/afbdadcdb2376438e496f02caf94f871.mp4/index.m3u8",
     "1080": "https://na2.crasping.site/html/aes/8b040bc11d570c6c4a47933b94eba87e/1646580644/lookmovie183.xyz/storage2/shows/2741602-the-blacklist-2013/1425656-S9-E11-1646474974/685eb285c2ffda7f3b926cfe3d0d27a1.mp4/index.m3u8"
-  }
+  },
+  "subtitles": [{
+    "language": "English",
+    "file": "/storage2/shows/2741602-the-blacklist-2013/1425656-S9-E11-1646474974/subtitles/en.vtt"
+  }]
 }
 
 --------------------------------------------------------------------------------

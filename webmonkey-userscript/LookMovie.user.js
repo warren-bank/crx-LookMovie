@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         LookMovie
 // @description  Watch videos in external player.
-// @version      1.0.2
+// @version      1.0.3
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*lookmovie\d*\.xyz\/[sm]\/.*$/
-// @icon         https://lookmovie.io/favicon-96x96.png
+// @include      /^https?:\/\/(?:[^\.\/]*\.)*(?:lookmovie2\.la)\/(?:shows|movies)\/play\/.*$/
+// @icon         https://lookmovie2.la/favicon-96x96.png
 // @run-at       document-end
 // @grant        unsafeWindow
 // @homepage     https://github.com/warren-bank/crx-LookMovie/tree/webmonkey-userscript/es5
@@ -14,43 +15,6 @@
 // @author       Warren Bank
 // @copyright    Warren Bank
 // ==/UserScript==
-
-// ----------------------------------------------------------------------------- notes
-
-/*
- * ===============================================
- * The following URL patterns are disabled:
- * ===============================================
-// @include      /^https?:\/\/(?:[^\.\/]*\.)*lookmovie\.io\/(?:shows|movies)\/view\/.*$/
-
- * ===============================================
- * The reason is:
- * - that even though the DOM includes metadata about available video streams,
- *   the hostname is not a permitted origin to make API requests,
- *   and the response is blocked by the CORS policy
- * ===============================================
-
- * ===============================================
- * To summarize:
- * - only webpages served from the same hostname as the API endpoint,
- *   are allowed to retreive URLs for video streams by making API requests
- * - this hostname appears to change daily
- *   by rotating through a set of registered domains
- *   having a sequentially numbered naming convention
- * - for example:
- *      lookmovie183.xyz
- *      lookmovie184.xyz
- * ===============================================
- */
-
-/*
- * ===============================================
- * Documentation for using regex @include pattern:
- *   https://wiki.greasespot.net/Include_and_exclude_rules
- *   https://www.tampermonkey.net/documentation.php#_include
- *   https://github.com/warren-bank/Android-WebMonkey/blob/master/android-studio-project/libs/webview-gm-lib/src/main/java/at/pardus/android/webview/gm/util/CriterionMatcher.java#L43
- * ===============================================
- */
 
 // ----------------------------------------------------------------------------- constants
 
@@ -460,23 +424,66 @@ var get_best_video_url = function(json) {
 }
 
 var get_best_caption_url = function(json) {
-  if (!Array.isArray(json.subtitles) || !json.subtitles.length) return null
-
-  var lang, sub
+  var lang, subtitles, sub
 
   lang = user_options.common.filters.subtitles.language
   if (!lang) return null
   lang = lang.toLowerCase()
 
-  for (var i=0; i < json.subtitles.length; i++) {
-    sub = json.subtitles[i]
+  subtitles = get_normalized_subtitles(json)
+  if (!Array.isArray(subtitles) || !subtitles.length) return null
 
-    if (sub && (sub instanceof Object) && (typeof sub.language === 'string') && (sub.language.toLowerCase() === lang) && sub.file && (typeof sub.file === 'string')) {
-      return sub.file
+  for (var i=0; i < subtitles.length; i++) {
+    sub = subtitles[i]
+
+    if (sub.language === lang) {
+      return sub.url
     }
   }
 
   return null
+}
+
+var get_normalized_subtitles = function(json) {
+  var subtitles = []
+  var sub, keys, key
+
+  if (Array.isArray(json.subtitles) && json.subtitles.length) {
+    for (var i=0; i < json.subtitles.length; i++) {
+      sub = json.subtitles[i]
+      process_subtitle(subtitles, sub)
+    }
+    return subtitles
+  }
+
+  if (json.subtitles instanceof Object) {
+    keys = Object.keys(json.subtitles)
+
+    for (var i=0; i < keys.length; i++) {
+      key = keys[i]
+      sub = json.subtitles[key]
+      process_subtitle(subtitles, sub)
+    }
+    return subtitles
+  }
+
+  return subtitles
+}
+
+var process_subtitle = function(subtitles, sub) {
+  var language, url
+
+  if (sub && (sub instanceof Object)) {
+    language = sub.language
+    url      = sub.url || sub.file
+
+    if (language && url && (typeof language === 'string') && (typeof url === 'string')) {
+      subtitles.push({
+        language: language.toLowerCase(),
+        url:      url
+      })
+    }
+  }
 }
 
 /*
@@ -498,8 +505,8 @@ var download_video_url = function(video_id, is_movie, callback) {
   var url, headers, data, json_callback
 
   url = is_movie
-    ? ('/api/v1/security/movie-access?id_movie='     + video_id)
-    : ('/api/v1/security/episode-access?id_episode=' + video_id)
+    ? ('/api/v1/security/movie-access?id_movie='     + video_id + '&id=' + video_id)
+    : ('/api/v1/security/episode-access?id_episode=' + video_id + '&id=' + video_id)
 
   url     = resolve_url(url)
   headers = null
@@ -537,6 +544,46 @@ var download_video_url = function(video_id, is_movie, callback) {
 // ------------------------------------- helper:
 
 var inspect_video_dom = function() {
+  return inspect_video_dom_lists() || inspect_video_dom_scripts()
+}
+
+// ------------------------------------- lists
+
+var inspect_video_dom_lists = function() {
+  var items, videos, title, video
+
+  items = unsafeWindow.document.querySelectorAll('li[data-id-episode]')
+  if (!items || !items.length) return null
+
+  videos = {
+    title:    null,
+    episodes: []
+  }
+
+  title = unsafeWindow.document.querySelector('.show__title')
+  title = title ? title.innerText : ''
+  videos.title = title
+
+  for (var i=0; i < items.length; i++) {
+    title = items[i].querySelector('.episodes__title')
+    title = title ? title.innerText : ''
+
+    video = {
+      id_episode: items[i].getAttribute('data-id-episode'),
+      season:     items[i].getAttribute('data-season'),
+      episode:    items[i].getAttribute('data-episode'),
+      title:      title
+    }
+
+    videos.episodes.push(video)
+  }
+
+  return videos
+}
+
+// ------------------------------------- inline scripts
+
+var inspect_video_dom_scripts = function() {
   var regex, scripts, script, prefix, json, videos
 
   regex = {

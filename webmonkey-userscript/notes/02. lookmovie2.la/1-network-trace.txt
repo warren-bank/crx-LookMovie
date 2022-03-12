@@ -1,0 +1,247 @@
+--------------------------------------------------------------------------------
+
+https://lookmovie2.la/
+https://lookmovie2.la/shows/
+https://lookmovie2.la/shows/page/2
+
+--------------------------------------------------------------------------------
+// https://lookmovie2.la/shows/view/2741602-the-blacklist-2013
+// https://lookmovie2.la/shows/play/2741602-the-blacklist-2013
+
+https://lookmovie2.la/api/v1/security/episode-access?id=164022
+
+{
+  "success": true,
+  "streams": {
+    "480p": "https://xfa2.cultedmotor.online/html/aes/7d6a0ed0d9ff1b6ef4d60708ba744447/1647082324/lookmovie2.la/storage2/shows/2741602-the-blacklist-2013/1425656-S9-E11-1646474974/8246802c0c207f49329e70a27e930f65.mp4/index.m3u8",
+    "720p": "https://xfa2.cultedmotor.online/html/aes/8f45d233e6cae13d238167c1032fdf00/1647082324/lookmovie2.la/storage2/shows/2741602-the-blacklist-2013/1425656-S9-E11-1646474974/afbdadcdb2376438e496f02caf94f871.mp4/index.m3u8",
+    "1080p": "https://xfa2.cultedmotor.online/html/aes/60853b41f97871e3ee4701501c688eb3/1647082324/lookmovie2.la/storage2/shows/2741602-the-blacklist-2013/1425656-S9-E11-1646474974/685eb285c2ffda7f3b926cfe3d0d27a1.mp4/index.m3u8"
+  },
+  "episode": 11,
+  "season": 9,
+  "subtitles": [{
+    "language": "English",
+    "url": "/storage2/shows/2741602-the-blacklist-2013/1425656-S9-E11-1646474974/subtitles/en.vtt"
+  }]
+}
+
+--------------------------------------------------------------------------------
+// https://lookmovie2.la/movies/view/1086064-bill-ted-face-the-music-2020
+// https://lookmovie2.la/movies/play/1086064-bill-ted-face-the-music-2020
+
+https://lookmovie2.la/api/v1/security/movie-access?id_movie=58354
+
+{
+  "success": true,
+  "masterPlaylistURL": "/manifests/movies/58354/1647086159/O-jlT7f9KVusVDiPI0pyfQ/master.m3u8",
+  "streams": {
+    "1080p": "https://xfa3.cultedmotor.online/O-jlT7f9KVusVDiPI0pyfQ/1647086159/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/1080p/index.m3u8",
+    "720p": "https://xfa3.cultedmotor.online/O-jlT7f9KVusVDiPI0pyfQ/1647086159/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/720p/index.m3u8",
+    "480p": "https://xfa3.cultedmotor.online/O-jlT7f9KVusVDiPI0pyfQ/1647086159/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/480p/index.m3u8"
+  },
+  "subtitles": {
+    "native-533264": {
+      "source": "native",
+      "source_id": "533264",
+      "language": "English",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865169": {
+      "source": "opensubtitle",
+      "source_id": "5865169",
+      "language": "English",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en_3ee3207dca3c4031d4727c6fa700368e.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865194": {
+      "source": "opensubtitle",
+      "source_id": "5865194",
+      "language": "Dutch",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/nl_a84093bbba809a267594858b45a32c67.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865192": {
+      "source": "opensubtitle",
+      "source_id": "5865192",
+      "language": "Polish",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/pl_68da65d9c44e9b50abe04c09e27ae8dd.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865168": {
+      "source": "opensubtitle",
+      "source_id": "5865168",
+      "language": "English",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en_7fc7321a7ef8c6b6a8de23287a8ae408.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865209": {
+      "source": "opensubtitle",
+      "source_id": "5865209",
+      "language": "Malay",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/ms_6d9e1972bbff929cade12cf1d7a6220e.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865206": {
+      "source": "opensubtitle",
+      "source_id": "5865206",
+      "language": "Greek",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/el_f74b47c52026668dea9e0d9306ea8f4f.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865203": {
+      "source": "opensubtitle",
+      "source_id": "5865203",
+      "language": "Swedish",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/sv_4c796471d9bf61666d4473205caf9300.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865179": {
+      "source": "opensubtitle",
+      "source_id": "5865179",
+      "language": "Arabic",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/ar_6275ca1dedc4f8352320d44b2b57bba2.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865177": {
+      "source": "opensubtitle",
+      "source_id": "5865177",
+      "language": "French",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/fr_7f091ec7181a292b2a61a7432748da48.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5972716": {
+      "source": "opensubtitle",
+      "source_id": "5972716",
+      "language": "Hebrew",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/he_82ff029cfad2a9a538f51281f90db427.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865199": {
+      "source": "opensubtitle",
+      "source_id": "5865199",
+      "language": "English",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en_5a958b76b30a46fa216bdfefcdabc278.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865170": {
+      "source": "opensubtitle",
+      "source_id": "5865170",
+      "language": "Spanish",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/es_d94070f1feb226798491a81f313b4489.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865174": {
+      "source": "opensubtitle",
+      "source_id": "5865174",
+      "language": "Protuguese (BR)",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/pt-BR_79a1621349a88be5b6f48aa88eaad87a.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865196": {
+      "source": "opensubtitle",
+      "source_id": "5865196",
+      "language": "Dutch",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/nl_1d3b70dcfaaea7f14676760fa0db4d06.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865197": {
+      "source": "opensubtitle",
+      "source_id": "5865197",
+      "language": "Dutch",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/nl_289592a7b4dc3aa204c91217a0b31482.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865186": {
+      "source": "opensubtitle",
+      "source_id": "5865186",
+      "language": "Portuguese",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/pt-PT_848c5379b562842bbfd250571489ade0.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865175": {
+      "source": "opensubtitle",
+      "source_id": "5865175",
+      "language": "English",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en_3aa2e8bde6a45857292b72526b270682.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865172": {
+      "source": "opensubtitle",
+      "source_id": "5865172",
+      "language": "English",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en_12ffb64e1a570e79163072419f05d9d4.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865201": {
+      "source": "opensubtitle",
+      "source_id": "5865201",
+      "language": "English",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en_3bb5dad7b3f609fd5857cc7914a2e205.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-6189245": {
+      "source": "opensubtitle",
+      "source_id": "6189245",
+      "language": "English",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/en_04ccf1b6889a4f24fed4f7e2119aff7e.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865187": {
+      "source": "opensubtitle",
+      "source_id": "5865187",
+      "language": "Serbian",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/sr_6b5c6595c80c53e13fc1c9a71d6315c0.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865178": {
+      "source": "opensubtitle",
+      "source_id": "5865178",
+      "language": "French",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/fr_7bed78d39bacc2dc8f2dc025da6ece45.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-6189242": {
+      "source": "opensubtitle",
+      "source_id": "6189242",
+      "language": "German",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/de_7065860327a8060465d58b2ff19bf2ab.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-5865180": {
+      "source": "opensubtitle",
+      "source_id": "5865180",
+      "language": "Finnish",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/fi_31cf6d792cc286becc6307eb7eee5627.vtt",
+      "kind": "subtitles"
+    },
+    "opensubtitle-6218547": {
+      "source": "opensubtitle",
+      "source_id": "6218547",
+      "language": "Croatian",
+      "url": "/storage1/movies/1086064-bill-ted-face-the-music-2020-1632383340/subtitles/hr_b8b1a71f239db26ec47081edf34e2385.vtt",
+      "kind": "subtitles"
+    }
+  }
+}
+
+--------------------------------------------------------------------------------
+
+notes:
+======
+
+* API endpoints hosted by "lookmovie2.la" differ from "lookmovie.io" in the following ways:
+
+  - "episode-access" API endpoint
+    * name of "id" input parameter:
+      - formerly named: "id_episode"
+    * name of "url" attribute in objects in "subtitles" array
+      - formerly named: "file"
+
+  - "movie-access" API endpoint
+    * value of "subtitles" attribute
+      - changed from Array to Object
+    * name of "url" attribute in objects in "subtitles"
+      - formerly named: "file"
+
+--------------------------------------------------------------------------------
