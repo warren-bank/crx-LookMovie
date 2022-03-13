@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         LookMovie
 // @description  Watch videos in external player.
-// @version      1.0.3
+// @version      1.0.4
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*lookmovie\d*\.xyz\/[sm]\/.*$/
-// @include      /^https?:\/\/(?:[^\.\/]*\.)*(?:lookmovie2\.la)\/(?:shows|movies)\/play\/.*$/
+// @include      /^https?:\/\/(?:[^\.\/]*\.)*(?:lookmovie2\.(?:to|la))\/(?:shows|movies)\/play\/.*$/
 // @icon         https://lookmovie2.la/favicon-96x96.png
 // @run-at       document-end
 // @grant        unsafeWindow
