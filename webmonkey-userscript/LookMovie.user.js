@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         LookMovie
 // @description  Watch videos in external player.
-// @version      1.0.4
+// @version      1.0.5
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*lookmovie\d*\.xyz\/[sm]\/.*$/
-// @include      /^https?:\/\/(?:[^\.\/]*\.)*(?:lookmovie2\.(?:to|la))\/(?:shows|movies)\/play\/.*$/
+// @include      /^https?:\/\/(?:[^\.\/]*\.)*(?:lookmovie2\.(?:to|la))\/(?:shows|movies)\/(?:view|play)\/.*$/
 // @icon         https://lookmovie2.la/favicon-96x96.png
 // @run-at       document-end
 // @grant        unsafeWindow
@@ -20,6 +20,7 @@
 
 var user_options = {
   "common": {
+    "redirect_to_video_page":       true,
     "sort_newest_first":            true,
     "filters": {
       "streams": {
@@ -539,7 +540,7 @@ var download_video_url = function(video_id, is_movie, callback) {
   download_video_url(58354,  true,  console.log)
  */
 
-// ----------------------------------------------------------------------------- process video
+// ----------------------------------------------------------------------------- process video page
 
 // ------------------------------------- helper:
 
@@ -1088,7 +1089,41 @@ var process_episodes = function(episodes, series_title) {
 
 // ----------------------------------------------------------------------------- bootstrap
 
+var redirect_to_video_page = function() {
+  var el, url
+
+  if (user_options.common.redirect_to_video_page) {
+    el = unsafeWindow.document.querySelector('a[href] > i.big-play')
+
+    if (el) {
+      el  = el.parentNode
+      url = el.getAttribute('href')
+      url = resolve_url(url)
+
+      redirect_to_url(url)
+      return true
+    }
+  }
+
+  return false
+}
+
+// -------------------------------------
+
+var is_video_page = function() {
+  var pathname, is_video_page
+
+  pathname = unsafeWindow.location.pathname
+  is_video_page = (pathname.indexOf('/view/') === -1)
+
+  return is_video_page
+}
+
+// -------------------------------------
+
 var init = function() {
+  if (!is_video_page()) return
+
   var videos, video, is_movie
 
   videos = inspect_video_dom()
@@ -1120,6 +1155,8 @@ var init = function() {
   }
 }
 
-init()
+// -------------------------------------
+
+redirect_to_video_page() || init()
 
 // -----------------------------------------------------------------------------
