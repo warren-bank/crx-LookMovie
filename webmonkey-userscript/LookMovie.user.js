@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LookMovie
 // @description  Watch videos in external player.
-// @version      1.0.5
+// @version      1.0.6
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*lookmovie\d*\.xyz\/[sm]\/.*$/
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*(?:lookmovie2\.(?:to|la))\/(?:shows|movies)\/(?:view|play)\/.*$/
 // @icon         https://lookmovie2.la/favicon-96x96.png
@@ -1157,6 +1157,19 @@ var init = function() {
 
 // -------------------------------------
 
-redirect_to_video_page() || init()
+var should_init = function() {
+  if (('function' === (typeof GM_getUrl)) && (GM_getUrl() !== unsafeWindow.location.href)) return false
+
+  if (unsafeWindow.window.did_userscript_init) return false
+
+  unsafeWindow.window.did_userscript_init = true
+  return true
+}
+
+// -------------------------------------
+
+if (should_init()) {
+  redirect_to_video_page() || init()
+}
 
 // -----------------------------------------------------------------------------
