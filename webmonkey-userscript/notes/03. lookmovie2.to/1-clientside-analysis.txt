@@ -1,0 +1,1419 @@
+-------------------------------------------------------------------------------- "view" series
+// https://lookmovie2.to/shows/view/2741602-the-blacklist-2013
+
+<script>
+    window['show_storage'] = {
+        id_show: 50,
+        type: 'show',
+        slug: '2741602-the-blacklist-2013',
+        poster_medium: 'https://cloudcdn.monster/images/p/w500/3a6ec0803b7b6e2dae7d807a6f59c062.jpg',
+        backdrop_huge: 'https://cloudcdn.monster/images/b/w1280/24f7b4d7634a8e4ff5f82299519c4ce5.jpg',
+        backdrop_medium: 'https://cloudcdn.monster/images/b/w780/24f7b4d7634a8e4ff5f82299519c4ce5.jpg',
+        backdrop_small: 'https://cloudcdn.monster/images/b/w342/24f7b4d7634a8e4ff5f82299519c4ce5.jpg',
+        title: 'The Blacklist',
+        year: '2013',
+        total_episodes: 189,
+        seasons: [
+                    ]
+    };
+</script>
+
+-------------------------------------------------------------------------------- "play" series
+// https://lookmovie2.to/shows/play/2741602-the-blacklist-2013
+
+<script>
+    window['show_storage'] = {
+        id_show: 50,
+        type: 'show',
+        slug: '2741602-the-blacklist-2013',
+        poster_medium: 'https://cloudcdn.monster/images/p/w500/3a6ec0803b7b6e2dae7d807a6f59c062.jpg',
+        backdrop_huge: 'https://cloudcdn.monster/images/b/w1280/24f7b4d7634a8e4ff5f82299519c4ce5.jpg',
+        backdrop_medium: 'https://cloudcdn.monster/images/b/w780/24f7b4d7634a8e4ff5f82299519c4ce5.jpg',
+        backdrop_small: 'https://cloudcdn.monster/images/b/w342/24f7b4d7634a8e4ff5f82299519c4ce5.jpg',
+        title: 'The Blacklist',
+        year: '2013',
+        total_episodes: 189,
+        seasons: [
+                                                {
+                title: 'Pilot',
+                index: '0',
+                episode: '1',
+                id_episode: 33994,
+                season: '1'
+            },
+                        {
+                title: 'The Freelancer',
+                index: '1',
+                episode: '2',
+                id_episode: 31505,
+                season: '1'
+            },
+                        {
+                title: 'Wujing',
+                index: '2',
+                episode: '3',
+                id_episode: 31479,
+                season: '1'
+            },
+                        {
+                title: 'The Stewmaker',
+                index: '3',
+                episode: '4',
+                id_episode: 31465,
+                season: '1'
+            },
+                        {
+                title: 'The Courier',
+                index: '4',
+                episode: '5',
+                id_episode: 33715,
+                season: '1'
+            },
+                        {
+                title: 'Gina Zanetakos',
+                index: '5',
+                episode: '6',
+                id_episode: 33640,
+                season: '1'
+            },
+                        {
+                title: 'Frederick Barnes',
+                index: '6',
+                episode: '7',
+                id_episode: 33524,
+                season: '1'
+            },
+                        {
+                title: 'General Ludd (No. 109)',
+                index: '7',
+                episode: '8',
+                id_episode: 33429,
+                season: '1'
+            },
+                        {
+                title: 'Anslo Garrick (1)',
+                index: '8',
+                episode: '9',
+                id_episode: 33235,
+                season: '1'
+            },
+                        {
+                title: 'Anslo Garrick (2)',
+                index: '9',
+                episode: '10',
+                id_episode: 33183,
+                season: '1'
+            },
+                        {
+                title: 'The Good Samaritan Killer',
+                index: '10',
+                episode: '11',
+                id_episode: 33847,
+                season: '1'
+            },
+                        {
+                title: 'The Alchemist',
+                index: '11',
+                episode: '12',
+                id_episode: 30502,
+                season: '1'
+            },
+                        {
+                title: 'The Cyprus Agency',
+                index: '12',
+                episode: '13',
+                id_episode: 32681,
+                season: '1'
+            },
+                        {
+                title: 'Madeline Pratt',
+                index: '13',
+                episode: '14',
+                id_episode: 30378,
+                season: '1'
+            },
+                        {
+                title: 'The Judge',
+                index: '14',
+                episode: '15',
+                id_episode: 32579,
+                season: '1'
+            },
+                        {
+                title: 'Mako Tanida',
+                index: '15',
+                episode: '16',
+                id_episode: 32515,
+                season: '1'
+            },
+                        {
+                title: 'Ivan',
+                index: '16',
+                episode: '17',
+                id_episode: 30362,
+                season: '1'
+            },
+                        {
+                title: 'Milton Bobbit',
+                index: '17',
+                episode: '18',
+                id_episode: 32340,
+                season: '1'
+            },
+                        {
+                title: 'The Pavlovich Brothers',
+                index: '18',
+                episode: '19',
+                id_episode: 30941,
+                season: '1'
+            },
+                        {
+                title: 'The Kingmaker',
+                index: '19',
+                episode: '20',
+                id_episode: 30165,
+                season: '1'
+            },
+                        {
+                title: 'Berlin (1)',
+                index: '20',
+                episode: '21',
+                id_episode: 30135,
+                season: '1'
+            },
+                        {
+                title: 'Berlin: Conclusion (2)',
+                index: '21',
+                episode: '22',
+                id_episode: 30119,
+                season: '1'
+            },
+                                                            {
+                title: 'Lord Baltimore',
+                index: '22',
+                episode: '1',
+                id_episode: 24567,
+                season: '2'
+            },
+                        {
+                title: 'Monarch Douglas Bank',
+                index: '23',
+                episode: '2',
+                id_episode: 24456,
+                season: '2'
+            },
+                        {
+                title: 'Dr. James Covington',
+                index: '24',
+                episode: '3',
+                id_episode: 29894,
+                season: '2'
+            },
+                        {
+                title: 'Dr. Linus Creel',
+                index: '25',
+                episode: '4',
+                id_episode: 30685,
+                season: '2'
+            },
+                        {
+                title: 'The Front',
+                index: '26',
+                episode: '5',
+                id_episode: 28209,
+                season: '2'
+            },
+                        {
+                title: 'The Mombasa Cartel',
+                index: '27',
+                episode: '6',
+                id_episode: 29817,
+                season: '2'
+            },
+                        {
+                title: 'The Scimitar',
+                index: '28',
+                episode: '7',
+                id_episode: 29756,
+                season: '2'
+            },
+                        {
+                title: 'The Decembrist',
+                index: '29',
+                episode: '8',
+                id_episode: 29724,
+                season: '2'
+            },
+                        {
+                title: 'Luther Braxton (1)',
+                index: '30',
+                episode: '9',
+                id_episode: 25895,
+                season: '2'
+            },
+                        {
+                title: 'Luther Braxton: Conclusion (2)',
+                index: '31',
+                episode: '10',
+                id_episode: 24154,
+                season: '2'
+            },
+                        {
+                title: 'Ruslan Denisov',
+                index: '32',
+                episode: '11',
+                id_episode: 24106,
+                season: '2'
+            },
+                        {
+                title: 'The Kenyon Family',
+                index: '33',
+                episode: '12',
+                id_episode: 24114,
+                season: '2'
+            },
+                        {
+                title: 'The Deer Hunter',
+                index: '34',
+                episode: '13',
+                id_episode: 24061,
+                season: '2'
+            },
+                        {
+                title: 'T. Earl King VI',
+                index: '35',
+                episode: '14',
+                id_episode: 23980,
+                season: '2'
+            },
+                        {
+                title: 'The Major',
+                index: '36',
+                episode: '15',
+                id_episode: 23905,
+                season: '2'
+            },
+                        {
+                title: 'Tom Keen',
+                index: '37',
+                episode: '16',
+                id_episode: 23943,
+                season: '2'
+            },
+                        {
+                title: 'The Longevity Initiative',
+                index: '38',
+                episode: '17',
+                id_episode: 23848,
+                season: '2'
+            },
+                        {
+                title: 'Vanessa Cruz',
+                index: '39',
+                episode: '18',
+                id_episode: 23795,
+                season: '2'
+            },
+                        {
+                title: 'Leonard Caul',
+                index: '40',
+                episode: '19',
+                id_episode: 25191,
+                season: '2'
+            },
+                        {
+                title: 'Quon Zhang',
+                index: '41',
+                episode: '20',
+                id_episode: 21763,
+                season: '2'
+            },
+                        {
+                title: 'Karakurt',
+                index: '42',
+                episode: '21',
+                id_episode: 21682,
+                season: '2'
+            },
+                        {
+                title: 'Tom Connolly',
+                index: '43',
+                episode: '22',
+                id_episode: 21650,
+                season: '2'
+            },
+                                                            {
+                title: 'The Troll Farmer',
+                index: '44',
+                episode: '1',
+                id_episode: 21449,
+                season: '3'
+            },
+                        {
+                title: 'Marvin Gerard',
+                index: '45',
+                episode: '2',
+                id_episode: 22296,
+                season: '3'
+            },
+                        {
+                title: 'Eli Matchett',
+                index: '46',
+                episode: '3',
+                id_episode: 21322,
+                season: '3'
+            },
+                        {
+                title: 'The Djinn',
+                index: '47',
+                episode: '4',
+                id_episode: 21225,
+                season: '3'
+            },
+                        {
+                title: 'Arioch Cain',
+                index: '48',
+                episode: '5',
+                id_episode: 21193,
+                season: '3'
+            },
+                        {
+                title: 'Sir Crispin Crandall',
+                index: '49',
+                episode: '6',
+                id_episode: 21149,
+                season: '3'
+            },
+                        {
+                title: 'Zal Bin Hasaan',
+                index: '50',
+                episode: '7',
+                id_episode: 21002,
+                season: '3'
+            },
+                        {
+                title: 'Kings of the Highway',
+                index: '51',
+                episode: '8',
+                id_episode: 20941,
+                season: '3'
+            },
+                        {
+                title: 'The Director (1)',
+                index: '52',
+                episode: '9',
+                id_episode: 20187,
+                season: '3'
+            },
+                        {
+                title: 'The Director: Conclusion (2)',
+                index: '53',
+                episode: '10',
+                id_episode: 20113,
+                season: '3'
+            },
+                        {
+                title: 'Mr. Gregory Devry',
+                index: '54',
+                episode: '11',
+                id_episode: 19974,
+                season: '3'
+            },
+                        {
+                title: 'The Vehm',
+                index: '55',
+                episode: '12',
+                id_episode: 19984,
+                season: '3'
+            },
+                        {
+                title: 'Alistair Pitt',
+                index: '56',
+                episode: '13',
+                id_episode: 19628,
+                season: '3'
+            },
+                        {
+                title: 'Lady Ambrosia',
+                index: '57',
+                episode: '14',
+                id_episode: 19532,
+                season: '3'
+            },
+                        {
+                title: 'Drexel',
+                index: '58',
+                episode: '15',
+                id_episode: 19460,
+                season: '3'
+            },
+                        {
+                title: 'The Caretaker',
+                index: '59',
+                episode: '16',
+                id_episode: 19318,
+                season: '3'
+            },
+                        {
+                title: 'Mr. Solomon (1)',
+                index: '60',
+                episode: '17',
+                id_episode: 18334,
+                season: '3'
+            },
+                        {
+                title: 'Mr. Solomon: Conclusion (2)',
+                index: '61',
+                episode: '18',
+                id_episode: 18272,
+                season: '3'
+            },
+                        {
+                title: 'Cape May',
+                index: '62',
+                episode: '19',
+                id_episode: 18868,
+                season: '3'
+            },
+                        {
+                title: 'The Artax Network',
+                index: '63',
+                episode: '20',
+                id_episode: 18140,
+                season: '3'
+            },
+                        {
+                title: 'Susan Hargrave',
+                index: '64',
+                episode: '21',
+                id_episode: 17838,
+                season: '3'
+            },
+                        {
+                title: 'Alexander Kirk (1)',
+                index: '65',
+                episode: '22',
+                id_episode: 17743,
+                season: '3'
+            },
+                        {
+                title: 'Alexander Kirk: Conclusion (2)',
+                index: '66',
+                episode: '23',
+                id_episode: 17641,
+                season: '3'
+            },
+                                                            {
+                title: 'Esteban',
+                index: '67',
+                episode: '1',
+                id_episode: 16243,
+                season: '4'
+            },
+                        {
+                title: 'Mato',
+                index: '68',
+                episode: '2',
+                id_episode: 16086,
+                season: '4'
+            },
+                        {
+                title: 'Miles McGrath',
+                index: '69',
+                episode: '3',
+                id_episode: 15773,
+                season: '4'
+            },
+                        {
+                title: 'Gaia',
+                index: '70',
+                episode: '4',
+                id_episode: 15618,
+                season: '4'
+            },
+                        {
+                title: 'The Lindquist Concern',
+                index: '71',
+                episode: '5',
+                id_episode: 15483,
+                season: '4'
+            },
+                        {
+                title: 'The Thrushes',
+                index: '72',
+                episode: '6',
+                id_episode: 15407,
+                season: '4'
+            },
+                        {
+                title: 'Dr. Adrian Shaw (1)',
+                index: '73',
+                episode: '7',
+                id_episode: 15098,
+                season: '4'
+            },
+                        {
+                title: 'Dr. Adrian Shaw: Conclusion (2)',
+                index: '74',
+                episode: '8',
+                id_episode: 14961,
+                season: '4'
+            },
+                        {
+                title: 'Lipet\'s Seafood Company',
+                index: '75',
+                episode: '9',
+                id_episode: 13935,
+                season: '4'
+            },
+                        {
+                title: 'The Forecaster',
+                index: '76',
+                episode: '10',
+                id_episode: 13658,
+                season: '4'
+            },
+                        {
+                title: 'The Harem',
+                index: '77',
+                episode: '11',
+                id_episode: 13494,
+                season: '4'
+            },
+                        {
+                title: 'Natalie Luca',
+                index: '78',
+                episode: '12',
+                id_episode: 13246,
+                season: '4'
+            },
+                        {
+                title: 'Isabella Stone',
+                index: '79',
+                episode: '13',
+                id_episode: 13183,
+                season: '4'
+            },
+                        {
+                title: 'The Architect',
+                index: '80',
+                episode: '14',
+                id_episode: 12990,
+                season: '4'
+            },
+                        {
+                title: 'The Apothecary',
+                index: '81',
+                episode: '15',
+                id_episode: 12848,
+                season: '4'
+            },
+                        {
+                title: 'Dembe Zuma',
+                index: '82',
+                episode: '16',
+                id_episode: 12193,
+                season: '4'
+            },
+                        {
+                title: 'Requiem',
+                index: '83',
+                episode: '17',
+                id_episode: 12192,
+                season: '4'
+            },
+                        {
+                title: 'Philomena',
+                index: '84',
+                episode: '18',
+                id_episode: 12001,
+                season: '4'
+            },
+                        {
+                title: 'Dr. Bogdan Krilov',
+                index: '85',
+                episode: '19',
+                id_episode: 11926,
+                season: '4'
+            },
+                        {
+                title: 'The Debt Collector',
+                index: '86',
+                episode: '20',
+                id_episode: 11728,
+                season: '4'
+            },
+                        {
+                title: 'Mr. Kaplan (1)',
+                index: '87',
+                episode: '21',
+                id_episode: 11623,
+                season: '4'
+            },
+                        {
+                title: 'Mr. Kaplan: Conclusion (2)',
+                index: '88',
+                episode: '22',
+                id_episode: 11603,
+                season: '4'
+            },
+                                                            {
+                title: 'Smokey Putnum',
+                index: '89',
+                episode: '1',
+                id_episode: 9617,
+                season: '5'
+            },
+                        {
+                title: 'Greyson Blaise',
+                index: '90',
+                episode: '2',
+                id_episode: 9495,
+                season: '5'
+            },
+                        {
+                title: 'Miss Rebecca Thrall',
+                index: '91',
+                episode: '3',
+                id_episode: 9345,
+                season: '5'
+            },
+                        {
+                title: 'The Endling',
+                index: '92',
+                episode: '4',
+                id_episode: 9107,
+                season: '5'
+            },
+                        {
+                title: 'Ilyas Surkov',
+                index: '93',
+                episode: '5',
+                id_episode: 8952,
+                season: '5'
+            },
+                        {
+                title: 'The Travel Agency',
+                index: '94',
+                episode: '6',
+                id_episode: 8816,
+                season: '5'
+            },
+                        {
+                title: 'The Kilgannon Corporation',
+                index: '95',
+                episode: '7',
+                id_episode: 7270,
+                season: '5'
+            },
+                        {
+                title: 'Ian Garvey',
+                index: '96',
+                episode: '8',
+                id_episode: 7163,
+                season: '5'
+            },
+                        {
+                title: 'Ruin',
+                index: '97',
+                episode: '9',
+                id_episode: 7482,
+                season: '5'
+            },
+                        {
+                title: 'The Informant',
+                index: '98',
+                episode: '10',
+                id_episode: 8077,
+                season: '5'
+            },
+                        {
+                title: 'Abraham Stern',
+                index: '99',
+                episode: '11',
+                id_episode: 7940,
+                season: '5'
+            },
+                        {
+                title: 'The Cook',
+                index: '100',
+                episode: '12',
+                id_episode: 7761,
+                season: '5'
+            },
+                        {
+                title: 'The Invisible Hand',
+                index: '101',
+                episode: '13',
+                id_episode: 6420,
+                season: '5'
+            },
+                        {
+                title: 'Mr. Raleigh Sinclair III',
+                index: '102',
+                episode: '14',
+                id_episode: 6099,
+                season: '5'
+            },
+                        {
+                title: 'Pattie Sue Edwards',
+                index: '103',
+                episode: '15',
+                id_episode: 6957,
+                season: '5'
+            },
+                        {
+                title: 'The Capricorn Killer',
+                index: '104',
+                episode: '16',
+                id_episode: 6827,
+                season: '5'
+            },
+                        {
+                title: 'Anna-Gracia Duerte',
+                index: '105',
+                episode: '17',
+                id_episode: 6038,
+                season: '5'
+            },
+                        {
+                title: 'Zarak Mosadek',
+                index: '106',
+                episode: '18',
+                id_episode: 5931,
+                season: '5'
+            },
+                        {
+                title: 'Ian Garvey: Conclusion',
+                index: '107',
+                episode: '19',
+                id_episode: 5670,
+                season: '5'
+            },
+                        {
+                title: 'Nicholas T. Moore',
+                index: '108',
+                episode: '20',
+                id_episode: 4687,
+                season: '5'
+            },
+                        {
+                title: 'Lawrence Dane Devlin',
+                index: '109',
+                episode: '21',
+                id_episode: 4564,
+                season: '5'
+            },
+                        {
+                title: 'Sutton Ross',
+                index: '110',
+                episode: '22',
+                id_episode: 4411,
+                season: '5'
+            },
+                                                            {
+                title: 'Dr. Hans Koehler',
+                index: '111',
+                episode: '1',
+                id_episode: 2216,
+                season: '6'
+            },
+                        {
+                title: 'The Corsican',
+                index: '112',
+                episode: '2',
+                id_episode: 2464,
+                season: '6'
+            },
+                        {
+                title: 'The Pharmacist',
+                index: '113',
+                episode: '3',
+                id_episode: 2442,
+                season: '6'
+            },
+                        {
+                title: 'The Pawnbrokers',
+                index: '114',
+                episode: '4',
+                id_episode: 3960,
+                season: '6'
+            },
+                        {
+                title: 'Alter Ego',
+                index: '115',
+                episode: '5',
+                id_episode: 15180,
+                season: '6'
+            },
+                        {
+                title: 'The Ethicist',
+                index: '116',
+                episode: '6',
+                id_episode: 21360,
+                season: '6'
+            },
+                        {
+                title: 'General Shiro',
+                index: '117',
+                episode: '7',
+                id_episode: 26262,
+                season: '6'
+            },
+                        {
+                title: 'Marko Jankowics',
+                index: '118',
+                episode: '8',
+                id_episode: 32733,
+                season: '6'
+            },
+                        {
+                title: 'Minister D',
+                index: '119',
+                episode: '9',
+                id_episode: 32732,
+                season: '6'
+            },
+                        {
+                title: 'The Cryptobanker',
+                index: '120',
+                episode: '10',
+                id_episode: 42496,
+                season: '6'
+            },
+                        {
+                title: 'Bastien Moreau',
+                index: '121',
+                episode: '11',
+                id_episode: 45913,
+                season: '6'
+            },
+                        {
+                title: 'Bastien Moreau: Conclusion (2)',
+                index: '122',
+                episode: '12',
+                id_episode: 47545,
+                season: '6'
+            },
+                        {
+                title: 'Robert Vesco',
+                index: '123',
+                episode: '13',
+                id_episode: 49421,
+                season: '6'
+            },
+                        {
+                title: 'The Osterman Umbrella Company',
+                index: '124',
+                episode: '14',
+                id_episode: 49423,
+                season: '6'
+            },
+                        {
+                title: 'Olivia Olson',
+                index: '125',
+                episode: '15',
+                id_episode: 49787,
+                season: '6'
+            },
+                        {
+                title: 'Lady Luck',
+                index: '126',
+                episode: '16',
+                id_episode: 49880,
+                season: '6'
+            },
+                        {
+                title: 'The Third Estate',
+                index: '127',
+                episode: '17',
+                id_episode: 50226,
+                season: '6'
+            },
+                        {
+                title: 'The Brockton College Killer',
+                index: '128',
+                episode: '18',
+                id_episode: 50246,
+                season: '6'
+            },
+                        {
+                title: 'Rassvet',
+                index: '129',
+                episode: '19',
+                id_episode: 50254,
+                season: '6'
+            },
+                        {
+                title: 'Guillermo Rizal',
+                index: '130',
+                episode: '20',
+                id_episode: 50464,
+                season: '6'
+            },
+                        {
+                title: 'Anna McMahon',
+                index: '131',
+                episode: '21',
+                id_episode: 50606,
+                season: '6'
+            },
+                        {
+                title: 'Robert Diaz',
+                index: '132',
+                episode: '22',
+                id_episode: 50652,
+                season: '6'
+            },
+                                                            {
+                title: 'Louis T. Steinhil',
+                index: '133',
+                episode: '1',
+                id_episode: 58052,
+                season: '7'
+            },
+                        {
+                title: 'Louis T. Steinhil: Conclusion',
+                index: '134',
+                episode: '2',
+                id_episode: 59269,
+                season: '7'
+            },
+                        {
+                title: 'Les Fleurs Du Mal',
+                index: '135',
+                episode: '3',
+                id_episode: 60403,
+                season: '7'
+            },
+                        {
+                title: 'Kuwait',
+                index: '136',
+                episode: '4',
+                id_episode: 61382,
+                season: '7'
+            },
+                        {
+                title: 'Norman Devane',
+                index: '137',
+                episode: '5',
+                id_episode: 62489,
+                season: '7'
+            },
+                        {
+                title: 'Dr. Lewis Powell',
+                index: '138',
+                episode: '6',
+                id_episode: 64436,
+                season: '7'
+            },
+                        {
+                title: 'Hannah Hayes',
+                index: '139',
+                episode: '7',
+                id_episode: 66236,
+                season: '7'
+            },
+                        {
+                title: 'The Hawaladar',
+                index: '140',
+                episode: '8',
+                id_episode: 67815,
+                season: '7'
+            },
+                        {
+                title: 'Orion Relocation Services',
+                index: '141',
+                episode: '9',
+                id_episode: 70957,
+                season: '7'
+            },
+                        {
+                title: 'Katarina Rostova',
+                index: '142',
+                episode: '10',
+                id_episode: 71960,
+                season: '7'
+            },
+                        {
+                title: 'Victoria Fenberg',
+                index: '143',
+                episode: '11',
+                id_episode: 89779,
+                season: '7'
+            },
+                        {
+                title: 'Cornelius Ruck',
+                index: '144',
+                episode: '12',
+                id_episode: 90343,
+                season: '7'
+            },
+                        {
+                title: 'Newton Purcell',
+                index: '145',
+                episode: '13',
+                id_episode: 90884,
+                season: '7'
+            },
+                        {
+                title: 'Twamie Ullulaq',
+                index: '146',
+                episode: '14',
+                id_episode: 91275,
+                season: '7'
+            },
+                        {
+                title: 'Gordon Kemp',
+                index: '147',
+                episode: '15',
+                id_episode: 91781,
+                season: '7'
+            },
+                        {
+                title: 'Nyle Hatcher',
+                index: '148',
+                episode: '16',
+                id_episode: 92390,
+                season: '7'
+            },
+                        {
+                title: 'Brothers',
+                index: '149',
+                episode: '17',
+                id_episode: 93034,
+                season: '7'
+            },
+                        {
+                title: 'Roy Cain',
+                index: '150',
+                episode: '18',
+                id_episode: 93557,
+                season: '7'
+            },
+                        {
+                title: 'The Kazanjian Brothers',
+                index: '151',
+                episode: '19',
+                id_episode: 94548,
+                season: '7'
+            },
+                                                            {
+                title: 'Roanoke',
+                index: '152',
+                episode: '1',
+                id_episode: 118885,
+                season: '8'
+            },
+                        {
+                title: 'Katarina Rostova: Conclusion',
+                index: '153',
+                episode: '2',
+                id_episode: 119320,
+                season: '8'
+            },
+                        {
+                title: '16 Ounces',
+                index: '154',
+                episode: '3',
+                id_episode: 120486,
+                season: '8'
+            },
+                        {
+                title: 'Elizabeth Keen (No. 1)',
+                index: '155',
+                episode: '4',
+                id_episode: 120656,
+                season: '8'
+            },
+                        {
+                title: 'The Fribourg Confidence',
+                index: '156',
+                episode: '5',
+                id_episode: 121292,
+                season: '8'
+            },
+                        {
+                title: 'The Wellstone Agency',
+                index: '157',
+                episode: '6',
+                id_episode: 122552,
+                season: '8'
+            },
+                        {
+                title: 'Chemical Mary (No. 143)',
+                index: '158',
+                episode: '7',
+                id_episode: 123405,
+                season: '8'
+            },
+                        {
+                title: 'Ogden Greeley',
+                index: '159',
+                episode: '8',
+                id_episode: 124479,
+                season: '8'
+            },
+                        {
+                title: 'The Cyranoid (No. 35)',
+                index: '160',
+                episode: '9',
+                id_episode: 125321,
+                season: '8'
+            },
+                        {
+                title: 'Dr. Laken Perillos (No. 70)',
+                index: '161',
+                episode: '10',
+                id_episode: 125656,
+                season: '8'
+            },
+                        {
+                title: 'Captain Kidd (No. 96)',
+                index: '162',
+                episode: '11',
+                id_episode: 126557,
+                season: '8'
+            },
+                        {
+                title: 'Rakitin',
+                index: '163',
+                episode: '12',
+                id_episode: 126780,
+                season: '8'
+            },
+                        {
+                title: 'Anne',
+                index: '164',
+                episode: '13',
+                id_episode: 127049,
+                season: '8'
+            },
+                        {
+                title: 'Misère',
+                index: '165',
+                episode: '14',
+                id_episode: 127177,
+                season: '8'
+            },
+                        {
+                title: 'The Russian Knot',
+                index: '166',
+                episode: '15',
+                id_episode: 127530,
+                season: '8'
+            },
+                        {
+                title: 'Nicholas Obenrader',
+                index: '167',
+                episode: '16',
+                id_episode: 127654,
+                season: '8'
+            },
+                        {
+                title: 'Ivan Stepanov',
+                index: '168',
+                episode: '17',
+                id_episode: 127858,
+                season: '8'
+            },
+                        {
+                title: 'The Protean (No. 36)',
+                index: '169',
+                episode: '18',
+                id_episode: 128073,
+                season: '8'
+            },
+                        {
+                title: 'Balthazar &quot;Bino&quot; Baker',
+                index: '170',
+                episode: '19',
+                id_episode: 128224,
+                season: '8'
+            },
+                        {
+                title: 'Godwin Page',
+                index: '171',
+                episode: '20',
+                id_episode: 128330,
+                season: '8'
+            },
+                        {
+                title: 'Nachalo',
+                index: '172',
+                episode: '21',
+                id_episode: 128637,
+                season: '8'
+            },
+                        {
+                title: 'Konets',
+                index: '173',
+                episode: '22',
+                id_episode: 128868,
+                season: '8'
+            },
+                                                            {
+                title: 'The Skinner (No. 45)',
+                index: '174',
+                episode: '1',
+                id_episode: 149922,
+                season: '9'
+            },
+                        {
+                title: 'The Skinner (No. 45): Conclusion',
+                index: '175',
+                episode: '2',
+                id_episode: 151050,
+                season: '9'
+            },
+                        {
+                title: 'The SPK (No. 178)',
+                index: '176',
+                episode: '3',
+                id_episode: 152415,
+                season: '9'
+            },
+                        {
+                title: 'The Avenging Angel (No. 49)',
+                index: '177',
+                episode: '4',
+                id_episode: 153334,
+                season: '9'
+            },
+                        {
+                title: 'Benjamin T. Okara (No. 183)',
+                index: '178',
+                episode: '5',
+                id_episode: 154109,
+                season: '9'
+            },
+                        {
+                title: 'Dr. Roberta Sand, Ph.D. (No. 153)',
+                index: '179',
+                episode: '6',
+                id_episode: 156115,
+                season: '9'
+            },
+                        {
+                title: 'Between Sleep and Awake',
+                index: '180',
+                episode: '7',
+                id_episode: 158954,
+                season: '9'
+            },
+                        {
+                title: 'Dr. Razmik Maier (No. 168)',
+                index: '181',
+                episode: '8',
+                id_episode: 159218,
+                season: '9'
+            },
+                        {
+                title: 'Boukman Baptiste (No. 164)',
+                index: '182',
+                episode: '9',
+                id_episode: 159720,
+                season: '9'
+            },
+                        {
+                title: 'Arcane Wireless (No. 154)',
+                index: '183',
+                episode: '10',
+                id_episode: 163757,
+                season: '9'
+            },
+                        {
+                title: 'The Conglomerate (No. 142)',
+                index: '184',
+                episode: '11',
+                id_episode: 164022,
+                season: '9'
+            },
+                        {
+                title: 'The Chairman (No. 171)',
+                index: '185',
+                episode: '12',
+                id_episode: 165270,
+                season: '9'
+            },
+                        {
+                title: 'Genuine Models Inc. (No. 176)',
+                index: '186',
+                episode: '13',
+                id_episode: 166010,
+                season: '9'
+            },
+                        {
+                title: 'Eva Mason (No. 181)',
+                index: '187',
+                episode: '14',
+                id_episode: 166796,
+                season: '9'
+            },
+                        {
+                title: '',
+                index: '188',
+                episode: '15',
+                id_episode: 167738,
+                season: '9'
+            },
+                                ]
+    };
+</script>
+
+-------------------------------------------------------------------------------- "view" movie
+// https://lookmovie2.to/movies/view/1086064-bill-ted-face-the-music-2020
+
+<script>
+    window['movie_storage'] = {
+        id_movie: 58354,
+        type: 'movie',
+        key: 'lookmovie.mv_58354',
+        movie_poster: 'https://cloudcdn.monster/images/p/w500/e69d1f00793879f21f1788c036f1bfb1.jpg',
+        backdrop_huge: 'https://cloudcdn.monster/images/b/w1280/d1977d1e6588a57934bcb4ce54ee438e.jpg',
+        backdrop_medium: 'https://cloudcdn.monster/images/b/w780/d1977d1e6588a57934bcb4ce54ee438e.jpg',
+        backdrop_small: 'https://cloudcdn.monster/images/b/w342/d1977d1e6588a57934bcb4ce54ee438e.jpg',
+        title: 'Bill & Ted Face the Music',
+        year: '2020',
+        text_tracks: []
+    };
+</script>
+
+-------------------------------------------------------------------------------- "play" movie
+// https://lookmovie2.to/movies/play/1086064-bill-ted-face-the-music-2020
+
+<script>
+    window['movie_storage'] = {
+        id_movie: 58354,
+        type: 'movie',
+        key: 'lookmovie.mv_58354',
+        movie_poster: 'https://cloudcdn.monster/images/p/w500/e69d1f00793879f21f1788c036f1bfb1.jpg',
+        backdrop_huge: 'https://cloudcdn.monster/images/b/w1280/d1977d1e6588a57934bcb4ce54ee438e.jpg',
+        backdrop_medium: 'https://cloudcdn.monster/images/b/w780/d1977d1e6588a57934bcb4ce54ee438e.jpg',
+        backdrop_small: 'https://cloudcdn.monster/images/b/w342/d1977d1e6588a57934bcb4ce54ee438e.jpg',
+        title: 'Bill & Ted Face the Music',
+        year: '2020',
+        text_tracks: []
+    };
+</script>
+
+--------------------------------------------------------------------------------
+
+observations:
+=============
+1. the only reason v1.0.6 recently stopped working is that the @include regex
+   for the "lookmovie[0-9]+.xyz" domain needed an update
+   because this domain is now using pathnames that resemble the ones used on the other domains,
+   wherease previously, they were unique.
+
+2. the HTML has changed on all pages, and it no-longer includes the list elements of episodes in a series.
+   wrt the code:
+     inspect_video_dom() is implemented in 2x ways, and if the first doesn't succeed then the 2nd is used.
+   previously:
+     1st way: inspect_video_dom_lists()
+     2nd way: inspect_video_dom_scripts()
+   now, since the first will always fail when the new DOM is used by the site:
+     1st way: inspect_video_dom_scripts()
+     2nd way: inspect_video_dom_lists()
+
+--------------------------------------------------------------------------------
