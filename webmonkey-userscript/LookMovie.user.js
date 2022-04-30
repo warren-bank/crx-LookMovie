@@ -42,6 +42,14 @@ var user_options = {
   }
 }
 
+// ----------------------------------------------------------------------------- helpers (debugging)
+
+var debug_alert = function(msg) {
+  if (user_options.common.show_debug_alerts) {
+    unsafeWindow.alert(msg)
+  }
+}
+
 // ----------------------------------------------------------------------------- helpers (xhr)
 
 var serialize_xhr_body_object = function(data) {
@@ -549,46 +557,10 @@ var inspect_video_dom = function() {
   return inspect_video_dom_scripts() || inspect_video_dom_lists()
 }
 
-// ------------------------------------- lists
-
-var inspect_video_dom_lists = function() {
-  if (user_options.common.show_debug_alerts) unsafeWindow.alert('07: begin inspecting DOM lists')
-
-  var items, videos, title, video
-
-  items = unsafeWindow.document.querySelectorAll('li[data-id-episode]')
-  if (!items || !items.length) return null
-
-  videos = {
-    title:    null,
-    episodes: []
-  }
-
-  title = unsafeWindow.document.querySelector('.show__title')
-  title = title ? title.innerText : ''
-  videos.title = title
-
-  for (var i=0; i < items.length; i++) {
-    title = items[i].querySelector('.episodes__title')
-    title = title ? title.innerText : ''
-
-    video = {
-      id_episode: items[i].getAttribute('data-id-episode'),
-      season:     items[i].getAttribute('data-season'),
-      episode:    items[i].getAttribute('data-episode'),
-      title:      title
-    }
-
-    videos.episodes.push(video)
-  }
-
-  return videos
-}
-
 // ------------------------------------- inline scripts
 
 var inspect_video_dom_scripts = function() {
-  if (user_options.common.show_debug_alerts) unsafeWindow.alert('05: begin inspecting scripts')
+  debug_alert('05: begin inspecting scripts')
 
   var regex, scripts, script, prefix, json, videos
 
@@ -602,7 +574,7 @@ var inspect_video_dom_scripts = function() {
     script = scripts[i]
     script = script.innerText.trim()
 
-    if (user_options.common.show_debug_alerts) unsafeWindow.alert('06: ' + script.substring(0, 200))
+    debug_alert('06: ' + script.substring(0, 200))
 
     prefix = "window['movie_storage']"
     if (script.substring(0, prefix.length) === prefix) {
@@ -653,6 +625,42 @@ var inspect_video_dom_scripts = function() {
   }
 
   return null
+}
+
+// ------------------------------------- lists
+
+var inspect_video_dom_lists = function() {
+  debug_alert('07: begin inspecting DOM lists')
+
+  var items, videos, title, video
+
+  items = unsafeWindow.document.querySelectorAll('li[data-id-episode]')
+  if (!items || !items.length) return null
+
+  videos = {
+    title:    null,
+    episodes: []
+  }
+
+  title = unsafeWindow.document.querySelector('.show__title')
+  title = title ? title.innerText : ''
+  videos.title = title
+
+  for (var i=0; i < items.length; i++) {
+    title = items[i].querySelector('.episodes__title')
+    title = title ? title.innerText : ''
+
+    video = {
+      id_episode: items[i].getAttribute('data-id-episode'),
+      season:     items[i].getAttribute('data-season'),
+      episode:    items[i].getAttribute('data-episode'),
+      title:      title
+    }
+
+    videos.episodes.push(video)
+  }
+
+  return videos
 }
 
 // -------------------------------------
@@ -1107,13 +1115,13 @@ var redirect_to_video_page = function() {
       url = el.getAttribute('href')
       url = resolve_url(url)
 
-      if (user_options.common.show_debug_alerts) unsafeWindow.alert('03: redirecting to video')
+      debug_alert('03: redirecting to video')
       redirect_to_url(url)
       return true
     }
   }
 
-  if (user_options.common.show_debug_alerts) unsafeWindow.alert('03: NOT redirecting to video')
+  debug_alert('03: NOT redirecting to video')
   return false
 }
 
@@ -1131,7 +1139,7 @@ var is_video_page = function() {
 // -------------------------------------
 
 var init = function() {
-  if (user_options.common.show_debug_alerts) unsafeWindow.alert('04: begin init')
+  debug_alert('04: begin init')
 
   if (!is_video_page()) return
 
@@ -1139,7 +1147,7 @@ var init = function() {
 
   videos = inspect_video_dom()
 
-  if (user_options.common.show_debug_alerts) unsafeWindow.alert('08: videos found =' + unsafeWindow.JSON.stringify(videos))
+  debug_alert('08: videos found =' + unsafeWindow.JSON.stringify(videos))
 
   if (!videos || !(videos instanceof Object)) return
 
@@ -1172,7 +1180,7 @@ var init = function() {
 
 var should_init = function() {
   if (unsafeWindow.window.did_userscript_init) {
-    if (user_options.common.show_debug_alerts) unsafeWindow.alert('02: will NOT init - has already init')
+    debug_alert('02: will NOT init - has already init')
     return false
   }
 
@@ -1185,8 +1193,8 @@ var should_init = function() {
   }
 
   if (('function' === (typeof GM_getUrl)) && (remove_hash_from_url(GM_getUrl()) !== remove_hash_from_url(unsafeWindow.location.href))) {
-    if (user_options.common.show_debug_alerts) unsafeWindow.alert('02: will NOT init - URL redirect')
-    if (user_options.common.show_debug_alerts) unsafeWindow.alert("from:\n" + GM_getUrl() + "\nto:\n" + unsafeWindow.location.href)
+    debug_alert('02: will NOT init - URL redirect')
+    debug_alert("from:\n" + GM_getUrl() + "\nto:\n" + unsafeWindow.location.href)
     redirect_to_url(remove_hash_from_url(unsafeWindow.location.href))
     return false
   }
@@ -1197,10 +1205,10 @@ var should_init = function() {
 
 // -------------------------------------
 
-if (user_options.common.show_debug_alerts) unsafeWindow.alert('01: pre-init')
+debug_alert('01: pre-init')
 
 if (should_init()) {
-  if (user_options.common.show_debug_alerts) unsafeWindow.alert('02: will init')
+  debug_alert('02: will init')
   redirect_to_video_page() || init()
 }
 
