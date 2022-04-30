@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LookMovie
 // @description  Watch videos in external player.
-// @version      1.0.8
+// @version      1.0.9
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*(?:lookmovie2\.(?:to|la)|(?:lookmovie|lmplayer)\d*\.xyz)\/(?:shows|movies)\/(?:view|play)\/.*$/
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*lookmovie\d*\.xyz\/[sm]\/.*$/
 // @icon         https://lookmovie2.la/favicon-96x96.png
@@ -20,6 +20,7 @@
 
 var user_options = {
   "common": {
+    "show_debug_alerts":            false,
     "redirect_to_video_page":       true,
     "sort_newest_first":            true,
     "filters": {
@@ -551,6 +552,8 @@ var inspect_video_dom = function() {
 // ------------------------------------- lists
 
 var inspect_video_dom_lists = function() {
+  if (user_options.common.show_debug_alerts) unsafeWindow.alert('07: begin inspecting DOM lists')
+
   var items, videos, title, video
 
   items = unsafeWindow.document.querySelectorAll('li[data-id-episode]')
@@ -585,6 +588,8 @@ var inspect_video_dom_lists = function() {
 // ------------------------------------- inline scripts
 
 var inspect_video_dom_scripts = function() {
+  if (user_options.common.show_debug_alerts) unsafeWindow.alert('05: begin inspecting scripts')
+
   var regex, scripts, script, prefix, json, videos
 
   regex = {
@@ -596,6 +601,8 @@ var inspect_video_dom_scripts = function() {
   for (var i=0; i < scripts.length; i++) {
     script = scripts[i]
     script = script.innerText.trim()
+
+    if (user_options.common.show_debug_alerts) unsafeWindow.alert('06: ' + script.substring(0, 200))
 
     prefix = "window['movie_storage']"
     if (script.substring(0, prefix.length) === prefix) {
@@ -1100,11 +1107,13 @@ var redirect_to_video_page = function() {
       url = el.getAttribute('href')
       url = resolve_url(url)
 
+      if (user_options.common.show_debug_alerts) unsafeWindow.alert('03: redirecting to video')
       redirect_to_url(url)
       return true
     }
   }
 
+  if (user_options.common.show_debug_alerts) unsafeWindow.alert('03: NOT redirecting to video')
   return false
 }
 
@@ -1122,11 +1131,15 @@ var is_video_page = function() {
 // -------------------------------------
 
 var init = function() {
+  if (user_options.common.show_debug_alerts) unsafeWindow.alert('04: begin init')
+
   if (!is_video_page()) return
 
   var videos, video, is_movie
 
   videos = inspect_video_dom()
+
+  if (user_options.common.show_debug_alerts) unsafeWindow.alert('08: videos found =' + unsafeWindow.JSON.stringify(videos))
 
   if (!videos || !(videos instanceof Object)) return
 
@@ -1158,9 +1171,25 @@ var init = function() {
 // -------------------------------------
 
 var should_init = function() {
-  if (('function' === (typeof GM_getUrl)) && (GM_getUrl() !== unsafeWindow.location.href)) return false
+  if (unsafeWindow.window.did_userscript_init) {
+    if (user_options.common.show_debug_alerts) unsafeWindow.alert('02: will NOT init - has already init')
+    return false
+  }
 
-  if (unsafeWindow.window.did_userscript_init) return false
+  var remove_hash_from_url = function(url) {
+    hash_index = url.indexOf('#')
+    if (hash_index > 0) {
+      url = url.substring(0, hash_index)
+    }
+    return url
+  }
+
+  if (('function' === (typeof GM_getUrl)) && (remove_hash_from_url(GM_getUrl()) !== remove_hash_from_url(unsafeWindow.location.href))) {
+    if (user_options.common.show_debug_alerts) unsafeWindow.alert('02: will NOT init - URL redirect')
+    if (user_options.common.show_debug_alerts) unsafeWindow.alert("from:\n" + GM_getUrl() + "\nto:\n" + unsafeWindow.location.href)
+    redirect_to_url(remove_hash_from_url(unsafeWindow.location.href))
+    return false
+  }
 
   unsafeWindow.window.did_userscript_init = true
   return true
@@ -1168,7 +1197,10 @@ var should_init = function() {
 
 // -------------------------------------
 
+if (user_options.common.show_debug_alerts) unsafeWindow.alert('01: pre-init')
+
 if (should_init()) {
+  if (user_options.common.show_debug_alerts) unsafeWindow.alert('02: will init')
   redirect_to_video_page() || init()
 }
 
