@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------
+
+https://lookmovie2.to/shows/view/10975574-julia-2022
+https://lmplayer18.xyz/shows/play/10975574-julia-2022
+
+--------------------------------------------------------------------------------
+
+https://lmplayer18.xyz/api/v1/security/episode-access?id_episode=171911
+
+response:
+=========
+{"success":false,"message":"Bad Request"}
+
+--------------------------------------------------------------------------------
+
+https://lmplayer18.xyz/api/v1/security/episode-access?id_episode=171911&hash=N7csl3MhwOAI6zwKp4xj9Q&expires=1652170232
+
+response:
+=========
+{
+  "success": true,
+  "subtitles": [{
+    "language": "English",
+    "file": "/storage5/shows/10975574-julia-2022/1430226-S1-E8-1651743167/subtitles/en.vtt"
+  }, {
+    "language": "Spanish",
+    "file": "/storage5/shows/10975574-julia-2022/1430226-S1-E8-1651743167/subtitles/es.vtt"
+  }, {
+    "language": "Portuguese",
+    "file": "/storage5/shows/10975574-julia-2022/1430226-S1-E8-1651743167/subtitles/pt.vtt"
+  }],
+  "streams": {
+    "480": "https://xfaom.cultedmotor.online/html/aes/vHVugZPBY2BXR7x5e5E6KA/1652170273/1/storage5/shows/10975574-julia-2022/1430226-S1-E8-1651743167/2e1870949334ad2b04ae5b4d2fc8a8dd.mp4/index.m3u8",
+    "720": "https://xfaom.cultedmotor.online/html/aes/vHVugZPBY2BXR7x5e5E6KA/1652170273/1/storage5/shows/10975574-julia-2022/1430226-S1-E8-1651743167/b34ba8c3299f36c797b70f20d81d5318.mp4/index.m3u8",
+    "1080": "https://xfaom.cultedmotor.online/html/aes/vHVugZPBY2BXR7x5e5E6KA/1652170273/1/storage5/shows/10975574-julia-2022/1430226-S1-E8-1651743167/6e6bcded3f57dd0caf8c8f8186c611e3.mp4/index.m3u8"
+  }
+}
+
+--------------------------------------------------------------------------------

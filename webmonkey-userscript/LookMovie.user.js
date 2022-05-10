@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LookMovie
 // @description  Watch videos in external player.
-// @version      1.0.9
+// @version      1.0.10
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*(?:lookmovie2\.(?:to|la)|(?:lookmovie|lmplayer)\d*\.xyz)\/(?:shows|movies)\/(?:view|play)\/.*$/
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*lookmovie\d*\.xyz\/[sm]\/.*$/
 // @icon         https://lookmovie2.la/favicon-96x96.png
@@ -40,6 +40,11 @@ var user_options = {
     "force_http":                   true,
     "force_https":                  false
   }
+}
+
+var state = {
+  hash:    null,
+  expires: null
 }
 
 // ----------------------------------------------------------------------------- helpers (debugging)
@@ -518,6 +523,9 @@ var download_video_url = function(video_id, is_movie, callback) {
     ? ('/api/v1/security/movie-access?id_movie='     + video_id + '&id=' + video_id)
     : ('/api/v1/security/episode-access?id_episode=' + video_id + '&id=' + video_id)
 
+  if (state.hash && state.expires)
+    url += '&hash=' + state.hash + '&expires=' + state.expires
+
   url     = resolve_url(url)
   headers = null
   data    = null
@@ -592,6 +600,9 @@ var inspect_video_dom_scripts = function() {
             id_movie: json.id_movie
           }
         }
+
+        state.hash    = json.hash    || ''
+        state.expires = json.expires || ''
       }
       catch(e) {
         videos = null
@@ -615,6 +626,9 @@ var inspect_video_dom_scripts = function() {
           title:    json.title,
           episodes: json.seasons
         }
+
+        state.hash    = json.hash    || ''
+        state.expires = json.expires || ''
       }
       catch(e) {
         videos = null

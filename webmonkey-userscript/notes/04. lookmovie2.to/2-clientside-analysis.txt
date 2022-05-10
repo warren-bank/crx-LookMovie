@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------- tv series:
+// https://lookmovie2.to/shows/view/10975574-julia-2022
+// view-source:https://lmplayer18.xyz/shows/play/10975574-julia-2022
+
+<script>
+    window['show_storage'] = {
+        id_show: 35941,
+        type: 'show',
+        slug: '10975574-julia-2022',
+        poster_medium: 'https://cloudcdn.monster/images/p/w500/9ba97e832591bab54f49291af73c581d.jpg',
+        backdrop_huge: 'https://cloudcdn.monster/images/b/w1280/e3f33c82bde8b08d591698815301d3a0.jpg',
+        backdrop_medium: 'https://cloudcdn.monster/images/b/w780/e3f33c82bde8b08d591698815301d3a0.jpg',
+        backdrop_small: 'https://cloudcdn.monster/images/b/w342/e3f33c82bde8b08d591698815301d3a0.jpg',
+        title: 'Julia',
+        year: '2022',
+        total_episodes: 8,
+        hash: 'B71ZsoaNxDDuotuwdU6ybA',
+        expires: 1652171005,
+        seasons: [{
+            title: 'Omelette',
+            index: '0',
+            episode: '1',
+            id_episode: 166577,
+            season: '1'
+          },
+          {
+            title: 'Coq Au Vin',
+            index: '1',
+            episode: '2',
+            id_episode: 166578,
+            season: '1'
+          },
+          {
+            title: 'Boeuf Bourguignon',
+            index: '2',
+            episode: '3',
+            id_episode: 166576,
+            season: '1'
+          },
+          {
+            title: 'Petit Fours',
+            index: '3',
+            episode: '4',
+            id_episode: 167434,
+            season: '1'
+          },
+          {
+            title: 'Crepes Suzette',
+            index: '4',
+            episode: '5',
+            id_episode: 168228,
+            season: '1'
+          },
+          {
+            title: 'Breads',
+            index: '5',
+            episode: '6',
+            id_episode: 169711,
+            season: '1'
+          },
+          {
+            title: 'Foie Gras',
+            index: '6',
+            episode: '7',
+            id_episode: 171167,
+            season: '1'
+          },
+          {
+            title: 'Chocolate Souffle',
+            index: '7',
+            episode: '8',
+            id_episode: 171911,
+            season: '1'
+          },
+        ]
+    };
+</script>
+
+-------------------------------------------------------------------------------- movie:
+// https://lookmovie2.to/movies/view/1086064-bill-ted-face-the-music-2020
+// view-source:https://lmplayer18.xyz/movies/play/1086064-bill-ted-face-the-music-2020
+
+<script>
+    window['movie_storage'] = {
+        id_movie: 58354,
+        type: 'movie',
+        key: 'lookmovie.mv_58354',
+        movie_poster: 'https://cloudcdn.monster/images/p/w500/e69d1f00793879f21f1788c036f1bfb1.jpg',
+        backdrop_huge: 'https://cloudcdn.monster/images/b/w1280/d1977d1e6588a57934bcb4ce54ee438e.jpg',
+        backdrop_medium: 'https://cloudcdn.monster/images/b/w780/d1977d1e6588a57934bcb4ce54ee438e.jpg',
+        backdrop_small: 'https://cloudcdn.monster/images/b/w342/d1977d1e6588a57934bcb4ce54ee438e.jpg',
+        title: 'Bill & Ted Face the Music',
+        year: '2020',
+        text_tracks: [],
+        hash: 'h8ZiGCxnl_DcvhA0i_FyoA',
+        expires: 1652172086
+    };
+</script>
+
+--------------------------------------------------------------------------------
