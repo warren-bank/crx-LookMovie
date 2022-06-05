@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LookMovie
 // @description  Watch videos in external player.
-// @version      1.0.10
+// @version      1.0.11
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*(?:lookmovie2\.(?:to|la)|(?:lookmovie|lmplayer)\d*\.xyz)\/(?:shows|movies)\/(?:view|play)\/.*$/
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*lookmovie\d*\.xyz\/[sm]\/.*$/
 // @icon         https://lookmovie2.la/favicon-96x96.png
@@ -1126,7 +1126,7 @@ var redirect_to_video_page = function() {
 
     if (el) {
       el  = el.parentNode
-      url = el.getAttribute('href')
+      url = el.getAttribute('href').trim()
       url = resolve_url(url)
 
       debug_alert('03: redirecting to video')
