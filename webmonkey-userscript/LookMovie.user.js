@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LookMovie
 // @description  Watch videos in external player.
-// @version      1.1.1
+// @version      1.1.2
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*(?:lookmovie2\.(?:to|la)|(?:lookmovie|lmplayer|playerwatchlm)\d*\.xyz|[^\.\/]+\.(?:monster|click))\/(?:shows|movies)\/(?:view|play)\/.*$/
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*lookmovie\d*\.xyz\/[sm]\/.*$/
 // @icon         https://lookmovie2.la/favicon-96x96.png
@@ -25,7 +25,7 @@ var user_options = {
     "sort_newest_first":            true,
     "filters": {
       "streams": {
-        "max_resolution":           "720p"
+        "max_resolution":           "720"
       },
       "subtitles": {
         "language":                 "English"
@@ -404,6 +404,11 @@ var get_best_video_url = function(json) {
   }
 
   keys = Object.keys(json.streams)
+  keys = keys.filter(function(key) {
+    return !!json.streams[key]
+  })
+  if (!keys.length) return null
+
   keys = keys.map(function(key) {
     return {
       key: key,

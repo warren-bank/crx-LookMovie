@@ -1,0 +1,383 @@
+--------------------------------------------------------------------------------
+
+https://www.lookmovie2.to/shows/play/1690947534-the-boys-2019
+
+--------------------------------------------------------------------------------
+
+https://www.lookmovie2.to/api/v1/security/episode-access?id_episode=274265&id=274265&hash=3uXn7Uf_mC23ClGgHYXgeg&expires=1726413277
+
+response:
+=========
+{
+    "success": true,
+    "id_episode": 274265,
+    "subtitles": [{
+        "language": "English",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/en.vtt"
+    }, {
+        "language": "Arabic",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ar.vtt"
+    }, {
+        "language": "Catalan",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ca.vtt"
+    }, {
+        "language": "Czech",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/cs.vtt"
+    }, {
+        "language": "Danish",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/da.vtt"
+    }, {
+        "language": "German",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/de.vtt"
+    }, {
+        "language": "Greek",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/el.vtt"
+    }, {
+        "language": "Spanish",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/es.vtt"
+    }, {
+        "language": "Basque",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/eu.vtt"
+    }, {
+        "language": "Finnish",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/fi.vtt"
+    }, {
+        "language": "French",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/fr.vtt"
+    }, {
+        "language": "Galician",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/gl.vtt"
+    }, {
+        "language": "Hindi",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/hi.vtt"
+    }, {
+        "language": "Hungarian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/hu.vtt"
+    }, {
+        "language": "Italian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/it.vtt"
+    }, {
+        "language": "Japanese",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ja.vtt"
+    }, {
+        "language": "Kannada",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/kn.vtt"
+    }, {
+        "language": "Korean",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ko.vtt"
+    }, {
+        "language": "Malayalam",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ml.vtt"
+    }, {
+        "language": "Malay",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ms.vtt"
+    }, {
+        "language": "Dutch",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/nl.vtt"
+    }, {
+        "language": "Polish",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/pl.vtt"
+    }, {
+        "language": "Portuguese",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/pt.vtt"
+    }, {
+        "language": "Romanian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ro.vtt"
+    }, {
+        "language": "Russian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ru.vtt"
+    }, {
+        "language": "Swedish",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/sv.vtt"
+    }, {
+        "language": "Tamil",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ta.vtt"
+    }, {
+        "language": "Telugu",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/te.vtt"
+    }, {
+        "language": "Thai",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/th.vtt"
+    }, {
+        "language": "Turkish",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/tr.vtt"
+    }, {
+        "language": "Ukrainian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/uk.vtt"
+    }, {
+        "language": "Vietnamese",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/vi.vtt"
+    }, {
+        "language": "Chinese",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/zh.vtt"
+    }, {
+        "language": "English",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/en_358a8f2bc8a13cb3655fe87ca7a1cd0c.vtt"
+    }, {
+        "language": "English",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/en_76c4d89f3ab3dbf97d6c7a2b291cfe02.vtt"
+    }, {
+        "language": "Polish",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/pl_83debdf34044a90379cbde0ccdd34b31.vtt"
+    }, {
+        "language": "Turkish",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/tr_f8f04c43ddb0e4159ccbc37cef93fc50.vtt"
+    }, {
+        "language": "Turkish",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/tr_8407a19095dab44a35ee9ee58f951b3a.vtt"
+    }, {
+        "language": "Japanese",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ja_2af27d17d95dd6037d7e4f7f672be606.vtt"
+    }, {
+        "language": "Indonesian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/id_c590e6b89168e2f5dad592cbe399c1df.vtt"
+    }, {
+        "language": "Greek",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/el_37dbcbf7fdf73429d238544b279c0351.vtt"
+    }, {
+        "language": "Hungarian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/hu_c25fae8b73b868e9fdc91d348aaf7195.vtt"
+    }, {
+        "language": "Ukrainian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/uk_8b0a67500be4fdab091f7d7397caf8fb.vtt"
+    }, {
+        "language": "Greek",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/el_da57bfede0c96a50d1b4e6aac1cec73c.vtt"
+    }, {
+        "language": "Finnish",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/fi_d73b47c4eb8b5adf570db11bfca8800e.vtt"
+    }, {
+        "language": "Swedish",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/sv_6060889597a7ff2e80facc7101a6885e.vtt"
+    }, {
+        "language": "Dutch",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/nl_9b56b8451be5530c8e404fa163e47d37.vtt"
+    }, {
+        "language": "Greek",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/el_74429c1d42b12ffc55fe9ffb4e69775a.vtt"
+    }, {
+        "language": "Arabic",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ar_9b0aa464b7b08192e7cb112dc2a39879.vtt"
+    }, {
+        "language": "English",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/en_53bed4e8a94a7932b15426b23c348308.vtt"
+    }, {
+        "language": "Hebrew",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/he_58c3c171cb87d4e2530a1c590af77302.vtt"
+    }, {
+        "language": "French",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/fr_ea03f8266699a3dd26fde324cd3d2dd6.vtt"
+    }, {
+        "language": "French",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/fr_79a4aee488b191f747ab0f831104a354.vtt"
+    }, {
+        "language": "Greek",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/el_37dbcbf7fdf73429d238544b279c0351.vtt"
+    }, {
+        "language": "Protuguese (BR)",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/pt-BR_e52c834a5c73d9f4c8f7c4f0fbecf3da.vtt"
+    }, {
+        "language": "Spanish",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/es_8cc0aa77879a41ad6c073c1c5da43e01.vtt"
+    }, {
+        "language": "Spanish",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/es_0e6fdaf7c4a4bf9e4448c888c2d97453.vtt"
+    }, {
+        "language": "French",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/fr_92423e7a756c24cb9a8ecd608cac8678.vtt"
+    }, {
+        "language": "Greek",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/el_74429c1d42b12ffc55fe9ffb4e69775a.vtt"
+    }, {
+        "language": "Protuguese (BR)",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/pt-BR_cbdb3ed376946fd3eb551ff9785bad60.vtt"
+    }, {
+        "language": "Protuguese (BR)",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/pt-BR_33809e8641907655684d7d8be6406b8a.vtt"
+    }, {
+        "language": "zh-cn",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/zh-CN_317548fc2bbef25c0916578d92edd2ca.vtt"
+    }, {
+        "language": "Galician",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/gl_ca83062d5a820dbc14e56f9c4ccbfe26.vtt"
+    }, {
+        "language": "Portuguese",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/pt-PT_3321d13b4f9dd2c5e702e5ea93635a97.vtt"
+    }, {
+        "language": "Arabic",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ar_ce066cfcf9ec27f6c5dbd664fa5b3887.vtt"
+    }, {
+        "language": "Arabic",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ar_9b0aa464b7b08192e7cb112dc2a39879.vtt"
+    }, {
+        "language": "Thai",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/th_2ae05262e06736fcdd860c32e1825723.vtt"
+    }, {
+        "language": "Italian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/it_f010612171eb26950d1df6c7d1c25bc4.vtt"
+    }, {
+        "language": "Vietnamese",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/vi_13dfed66e23c8b7a6e36f6ec2d545730.vtt"
+    }, {
+        "language": "Serbian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/sr_cd1c08797dea9688593283eecc3149f4.vtt"
+    }, {
+        "language": "zh-tw",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/zh-TW_6f5936811f2b4a7aea88cc1394149482.vtt"
+    }, {
+        "language": "Persian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/fa_0d157574c8351323c30613b264ff05c3.vtt"
+    }, {
+        "language": "Danish",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/da_88a9bd97c422d499d903828e31c09566.vtt"
+    }, {
+        "language": "German",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/de_8a53bf8703d4e033a5f01404e8b339a3.vtt"
+    }, {
+        "language": "Portuguese",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/pt-PT_7b5d70aa6a849d2acd9ed9611177adeb.vtt"
+    }, {
+        "language": "Russian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ru_05015d7f6fb1f61abb0d2a1ebcf3ccaa.vtt"
+    }, {
+        "language": "Greek",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/el_74429c1d42b12ffc55fe9ffb4e69775a.vtt"
+    }, {
+        "language": "Greek",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/el_74429c1d42b12ffc55fe9ffb4e69775a.vtt"
+    }, {
+        "language": "Greek",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/el_74429c1d42b12ffc55fe9ffb4e69775a.vtt"
+    }, {
+        "language": "Bulgarian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/bg_860653f2e2109fc8280802b9ca37dd9a.vtt"
+    }, {
+        "language": "Croatian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/hr_24d0e78aa09375c595c9c93d48925ee3.vtt"
+    }, {
+        "language": "English",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/en_3ae48ae42f8423c4f0a87337078521a4.vtt"
+    }, {
+        "language": "Malay",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ms_c7b2baf602c09e7a834548da708a76f9.vtt"
+    }, {
+        "language": "Persian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/fa_c93b5f235d2cec488b86df0502a16533.vtt"
+    }, {
+        "language": "Romanian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ro_3a4adee697164a30f8286f30ef771dbc.vtt"
+    }, {
+        "language": "Japanese",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/ja_58af79364b79c2913f6a8542057c1fd0.vtt"
+    }, {
+        "language": "Norwegian",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/no_125b87e59c5ece721a866c9583bebfdc.vtt"
+    }, {
+        "language": "Hindi",
+        "file": "/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/subtitles/hi_4a17361e1d8dfe505ce5d7f6001cefe2.vtt"
+    }, {
+        "source": "opensubtitle",
+        "source_id": "8844902",
+        "kind": "captions",
+        "language": "Romanian",
+        "file": [9764490, "8844902", "ro", "The.boys.S04E01.1080p.WEB.H264-SuccessfulCrab", null]
+    }, {
+        "source": "opensubtitle",
+        "source_id": "8481504",
+        "kind": "captions",
+        "language": "Serbian",
+        "file": [9405007, "8481504", "sr", "The.Boys.2019.S04E01.720p.WEB.x265-MiNX", null]
+    }, {
+        "source": "opensubtitle",
+        "source_id": "8286525",
+        "kind": "captions",
+        "language": "Bulgarian",
+        "file": [9211476, "8286525", "bg", "the.boys.s04e01.1080p.web.h264-successfulcrab[EZTVx.to]", null]
+    }, {
+        "source": "opensubtitle",
+        "source_id": "7959909",
+        "kind": "captions",
+        "language": "Croatian",
+        "file": [8887104, "7959909", "hr", "the.boys.s04e01.1080p.web.h264-successfulcrab[EZTVx.to]", null]
+    }, {
+        "source": "opensubtitle",
+        "source_id": "7898614",
+        "kind": "captions",
+        "language": "Bengali",
+        "file": [8825194, "7898614", "bn", "The Boys S04E01 WEB-DL Bangla Subtitle [01.05.06]", null]
+    }, {
+        "source": "opensubtitle",
+        "source_id": "7819204",
+        "kind": "captions",
+        "language": "Catalan",
+        "file": [8742305, "7819204", "ca", "The.boys.S04E01.1080p.WEB.H264-SuccessfulCrab7_[cat]", null]
+    }, {
+        "source": "opensubtitle",
+        "source_id": "7819203",
+        "kind": "captions",
+        "language": "Basque",
+        "file": [8742304, "7819203", "eu", "The.boys.S04E01.1080p.WEB.H264-SuccessfulCrab6_[baq]", null]
+    }, {
+        "source": "opensubtitle",
+        "source_id": "7819199",
+        "kind": "captions",
+        "language": "Telugu",
+        "file": [8742300, "7819199", "te", "The.boys.S04E01.1080p.WEB.H264-SuccessfulCrab40_[tel]", null]
+    }, {
+        "source": "opensubtitle",
+        "source_id": "7819198",
+        "kind": "captions",
+        "language": "Tamil",
+        "file": [8742299, "7819198", "ta", "The.boys.S04E01.1080p.WEB.H264-SuccessfulCrab39_[tam]", null]
+    }, {
+        "source": "opensubtitle",
+        "source_id": "7819196",
+        "kind": "captions",
+        "language": "Malayalam",
+        "file": [8742297, "7819196", "ml", "The.boys.S04E01.1080p.WEB.H264-SuccessfulCrab31_[mal]", null]
+    }, {
+        "source": "opensubtitle",
+        "source_id": "7819143",
+        "kind": "captions",
+        "language": "Korean",
+        "file": [8742245, "7819143", "ko", "The.boys.S04E01.1080p.WEB.H264-SuccessfulCrab28_[kor]", null]
+    }, {
+        "source": "opensubtitle",
+        "source_id": "7819152",
+        "kind": "captions",
+        "language": "Tagalog",
+        "file": [8742253, "7819152", "tl", "The.boys.S04E01.1080p.WEB.H264-SuccessfulCrab14_[fil]", null]
+    }, {
+        "source": "opensubtitle",
+        "source_id": "7819146",
+        "kind": "captions",
+        "language": "Czech",
+        "file": [8742248, "7819146", "cs", "The.boys.S04E01.1080p.WEB.H264-SuccessfulCrab10_[cze]", null]
+    }, {
+        "source": "opensubtitle",
+        "source_id": "7818112",
+        "kind": "captions",
+        "language": "German",
+        "file": [8741222, "7818112", "de", "The.Boys.S04E01.Department.of.Dirty.Tricks.1080p.AMZN.WEB-DL.DDP5.1.H.264-FLUX.forced", null]
+    }],
+    "streams": {
+        "480": "https://cme-vc33.xzbgsagag.online/aes/tj8yYS7DD4fSGs0dwfhAEQ/1726413903/storage8/shows/1190634-the-boys-2019/1190634-s4-e1-1718277590/18ce65fc9a806c846848779edaf2b639.mp4/index.m3u8",
+        "720": null,
+        "1080": null
+    },
+    "config": {
+        "adTimeout": 10,
+        "isGuest": true,
+        "isPremium": false
+    },
+    "watchHistory": null
+}
+
+--------------------------------------------------------------------------------
+
+issue:
+======
+
+* some of the stream values are null
+
+--------------------------------------------------------------------------------
