@@ -1,8 +1,14 @@
 ### [LookMovie](https://github.com/warren-bank/crx-LookMovie/tree/webmonkey-userscript/es5)
 
-[Userscript](https://github.com/warren-bank/crx-LookMovie/raw/webmonkey-userscript/es5/webmonkey-userscript/LookMovie.user.js) for [lookmovie2.to](https://lookmovie2.to/) to run in both:
-* the [WebMonkey](https://github.com/warren-bank/Android-WebMonkey) application for Android
-* the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) web browser extension for Chrome/Chromium
+[Userscript](https://github.com/warren-bank/crx-LookMovie/raw/webmonkey-userscript/es5/webmonkey-userscript/LookMovie.user.js) for [lookmovie2.to](https://lookmovie2.to/) to run in:
+* the [WebMonkey](https://github.com/warren-bank/Android-WebMonkey) application
+  - for Android
+* the [Tampermonkey](https://www.tampermonkey.net/) web browser extension
+  - for [Firefox/Fenix](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+  - for [Chrome/Chromium](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+* the [Violentmonkey](https://violentmonkey.github.io/) web browser extension
+  - for [Firefox/Fenix](https://addons.mozilla.org/firefox/addon/violentmonkey/)
+  - for [Chrome/Chromium](https://chrome.google.com/webstore/detail/violent-monkey/jinjaccalgkegednnccohejagnlnfdag)
 
 Its purpose is to:
 * redirect embedded videos to an external player
@@ -30,6 +36,17 @@ Its purpose is to:
   - [lookmovie.site](https://lookmovie.site/)
 * disabled:
   - [lookmovie.io](https://lookmovie.io/)
+
+- - - -
+
+#### Bonus:
+
+[LookMovie.css userscript](https://github.com/warren-bank/crx-LookMovie/raw/webmonkey-userscript/es5/webmonkey-userscript/LookMovie.css.user.js)
+
+Its purpose is to apply the following CSS updates:
+* hide the upsell popup for "Premium Membership" subscription
+
+- - - -
 
 #### Legal:
 
