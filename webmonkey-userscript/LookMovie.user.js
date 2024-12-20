@@ -1,12 +1,16 @@
 // ==UserScript==
 // @name         LookMovie
 // @description  Watch videos in external player.
-// @version      1.1.2
+// @version      1.1.3
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*(?:lookmovie2\.(?:to|la)|(?:lookmovie|lmplayer|playerwatchlm)\d*\.xyz|[^\.\/]+\.(?:monster|click))\/(?:shows|movies)\/(?:view|play)\/.*$/
 // @include      /^https?:\/\/(?:[^\.\/]*\.)*lookmovie\d*\.xyz\/[sm]\/.*$/
 // @icon         https://lookmovie2.la/favicon-96x96.png
 // @run-at       document-end
 // @grant        unsafeWindow
+// @grant        GM_getUrl
+// @grant        GM_loadUrl
+// @grant        GM_resolveUrl
+// @grant        GM_startIntent
 // @homepage     https://github.com/warren-bank/crx-LookMovie/tree/webmonkey-userscript/es5
 // @supportURL   https://github.com/warren-bank/crx-LookMovie/issues
 // @downloadURL  https://github.com/warren-bank/crx-LookMovie/raw/webmonkey-userscript/es5/webmonkey-userscript/LookMovie.user.js
@@ -1204,9 +1208,11 @@ var should_init = function() {
   }
 
   var remove_hash_from_url = function(url) {
-    hash_index = url.indexOf('#')
-    if (hash_index > 0) {
-      url = url.substring(0, hash_index)
+    if (url) {
+      hash_index = url.indexOf('#')
+      if (hash_index > 0) {
+        url = url.substring(0, hash_index)
+      }
     }
     return url
   }
