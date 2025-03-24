@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LookMovie.css
 // @description  Apply CSS updates: hide upsell popup for "Premium Membership" subscription.
-// @version      1.0.1
+// @version      1.0.2
 // @match        *://*.lookmovie2.la/*
 // @match        *://*.lookmovie2.to/*
 // @icon         https://lookmovie2.la/favicon-96x96.png
@@ -25,4 +25,4 @@
   ].join("\n")
 
   $head.appendChild($style)
-})()
+})();
